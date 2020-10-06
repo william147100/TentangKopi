@@ -46,3 +46,7 @@ List Anggota  :
 
 ## Oktober 5, 2020 v0.4
 ### Menambahkan Login Page
+
+## Oktober 6, 2020 v0.5
+### Menambahkan About us page
+### Menambahkan Contact page

@@ -30,7 +30,7 @@ List Anggota  :
 <li>How : Bagaimana cara pengerjaan website ini?</li>
   <p1>- Pengerjaan project ini akan dikerjakan bersama-sama dengan anggota tim, yang nantinya akan dikerjakan dalam berbagai branch dan pada akhirnya akan dikumpulkan bersama dalam branch(master) ini</p1>p
 </ul>
-<br><hr>
+<br><hr><br>
 # Road Map
 
 ## September 26, 2020 v0.1
@@ -50,3 +50,4 @@ List Anggota  :
 ## Oktober 6, 2020 v0.5
 ### Menambahkan About us page
 ### Menambahkan Contact page
+

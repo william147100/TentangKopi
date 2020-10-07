@@ -50,4 +50,6 @@ List Anggota  :
 ## Oktober 6, 2020 v0.5
 ### Menambahkan About us page
 ### Menambahkan Contact page
-##coba aye taddo
+
+## Oktober 6, 2020 v0.51
+### Update Login Page

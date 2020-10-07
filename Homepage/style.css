@@ -584,3 +584,25 @@ body {
     padding: 16px;
     margin-bottom: 30px;
   }
+
+.spasigambar{
+    width: 487px;
+    height: 325px;
+    margin-right: 20px;
+}
+
+.kopidunia{
+    width: 1150px;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+.textgambar{
+    padding: 5px;
+    color: darkred;
+    font-size: 10pt;
+}
+
+.footcenter{
+    text-align: center;
+}

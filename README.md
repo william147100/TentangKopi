@@ -53,3 +53,6 @@ List Anggota  :
 
 ## Oktober 6, 2020 v0.51
 ### Update Login Page
+
+## Oktober 10, 2020 v0.52
+### Update Homepage 

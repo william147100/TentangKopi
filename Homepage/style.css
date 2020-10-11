@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 html,
 body {
     margin: 0;
@@ -13,7 +18,8 @@ body {
 
 /* Navbar section */
 .bgimagebwh{
-    background-image: url(https://i.pinimg.com/736x/c8/0c/4a/c80c4ae0ba5657d5b3deecc6f4ca33a6.jpg);
+   /* background-image: url(https://i.pinimg.com/736x/c8/0c/4a/c80c4ae0ba5657d5b3deecc6f4ca33a6.jpg);*/
+   background-color: #EEEEEE;
 }
 .nav {
     width: 100%;
@@ -100,10 +106,21 @@ body {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(https://i.ytimg.com/vi/PJQKZKPN5go/maxresdefault.jpg);
+    background-image: url(homepagebg.png);
     background-position: center top;
     background-size:cover;
 
+}
+.home .display{
+    padding-top: 250px;
+    padding-left: 100px;
+    text-align: left;
+    width: 100%;
+    max-width: 600;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Arima Madurai', cursive;
+    color: whitesmoke;
 }
 
 .navTrigger {
@@ -370,11 +387,27 @@ body {
 
 
 
-
+.learn {
+    padding: 70px;
+    display: flex;
+    align-items: center;
+}
+.learn .p{
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 20px;
+}
+.learn .bg{
+    height: 400px;
+    box-shadow: 25px 25px 50px 0 #EEEEEE inset, -25px -25px 50px 0 #EEEEEE inset; 
+    background-image: url(https://i2.wp.com/www.coday.id/wp-content/uploads/2019/06/Biaya-Kursus-Barista-di-Jogja.jpg?w=626&ssl=1);
+}
 .myH2 {
-    text-align:center;
-    font-size: 6rem;
+    margin-left: 20px;
+    font-size: 5rem;
     color:black;
+    font-family: 'Roboto Slab', serif;
 }
 .myP {
     text-align: justify;
@@ -390,7 +423,6 @@ body {
 
 
 body{
-    background-color:palegoldenrod;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -407,6 +439,14 @@ a{
 }
 .box{
     padding:25px;
+    background-color: #3F2C1F;
+    background-image: url(https://image.freepik.com/free-photo/close-up-background-coffee-beans_23-2148349677.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box .card-width{
+    width: 100%;
 }
 .box-part{
     background-color: rgba(0, 0, 0, 0.25);;
@@ -416,6 +456,23 @@ a{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
 
+}
+
+.box .container{
+    padding: 70px;
+    margin: auto;
+    color: #EEEEEE;
+}
+.box .container .card{
+    height: 400px;
+    background-color: #393e46;
+    box-shadow: 25px 25px 100px 0 black;
+}
+.box .container .icon{
+    max-width: 75px;
+    max-height: 75px;
+    margin: auto;
+    margin-top: 50px;
 }
 .text{
     margin:20px 0px;
@@ -432,7 +489,7 @@ a{
 }
 .card{
     font-size: 11.179px;
-    background-color:coral;
+    background-color:#EEEEEE;
 }
 .pemisah{
     margin-bottom: 1%;
@@ -452,13 +509,14 @@ a{
 	display: block;
 }
 .footer {
-	background:grey;
+	background:#222831;
 	height: auto;
 	padding-bottom: 30px;
 	position: relative;
 	width: 100%;
 	border-bottom: 1px solid #CCCCCC;
-	border-top: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    font-family: 'Montserrat', sans-serif;
 }
 .footer p {
 	margin: 0;
@@ -478,11 +536,10 @@ a{
 
 .footer h4 {
 	color: white;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: 600;
 	line-height: 38px;
 	padding: 40px 0 10px;
-	font-family: cursive;
   font-weight: lighter
 }
 

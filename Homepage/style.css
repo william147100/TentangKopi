@@ -439,7 +439,11 @@ a{
 }
 .box{
     padding:25px;
-    background-color: #EEEEEE;
+    background-color: #3F2C1F;
+    background-image: url(https://image.freepik.com/free-photo/close-up-background-coffee-beans_23-2148349677.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box .card-width{
     width: 100%;
@@ -453,14 +457,22 @@ a{
     font-size: 15px;
 
 }
-.box .history{
-    text-align: right;
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-image: url(https://image.freepik.com/free-photo/top-view-fresh-coffee-beans-white-cup-white-wooden-background_141793-25422.jpg);
+
+.box .container{
+    padding: 70px;
+    margin: auto;
+    color: #EEEEEE;
 }
-.belajar{
-    text-align: right;
+.box .container .card{
+    height: 400px;
+    background-color: #222831;
+    box-shadow: 25px 25px 100px 0 black;
+}
+.box .container .icon{
+    max-width: 75px;
+    max-height: 75px;
+    margin: auto;
+    margin-top: 50px;
 }
 .text{
     margin:20px 0px;
@@ -478,7 +490,6 @@ a{
 .card{
     font-size: 11.179px;
     background-color:#EEEEEE;
-    border-color: #b55400;
 }
 .pemisah{
     margin-bottom: 1%;

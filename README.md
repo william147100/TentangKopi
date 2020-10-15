@@ -56,3 +56,6 @@ List Anggota  :
 
 ## Oktober 10, 2020 v0.52
 ### Update Homepage 
+
+## Oktober 15,2020 v0.6
+### Menambahkan page content(permulaan)

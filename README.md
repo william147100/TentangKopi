@@ -49,10 +49,18 @@ List Anggota  :
 
 ## Oktober 6, 2020 v0.5
 ### Menambahkan About us page
+### Menambahkan Sejarah page
 ### Menambahkan Contact page
 
 ## Oktober 6, 2020 v0.51
 ### Update Login Page
+### Update Sejarah Page
 
 ## Oktober 10, 2020 v0.52
 ### Update Homepage 
+
+## Oktober 14, 2020 v0.53
+### Update CSS NavBar dan Sejarah
+
+## Oktober 15, 2020 v0.54
+### Update Page Sejarah

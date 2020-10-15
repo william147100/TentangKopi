@@ -14,6 +14,8 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
       <script src='About Us.js'></script>
+      <script src='scripthome.js'></script>
+      <script src='style.css'></script>
       
    </head>
    <body>
@@ -46,8 +48,8 @@
     </div> -->
     <div class="homeatas">
         <section class="atas">
-            <h1 class="centered" style="color:whitesmoke; font-size: 25px;">A bad day with coffee and sebat is better than a good day without IT</h1><br>     
-       </section>
+            <h1 class="display" style="color:whitesmoke;">"A bad day with coffee and sebat is better than a good day without IT"</h1><br>
+        </section>
     </div>
 
     <div class="home">
@@ -140,20 +142,66 @@
             </div>
         </div>
     </div>
- 
+    <footer>
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <h4> Tentang Kopi </h4>
+                    </div>
+                    <div class="col-lg-3 col-sm-2 col-xs-3">
+                        <h3>Need help?</h3>
+                        <ul>
+                            <li><a href="contactus.html">Feel free to Contact us</a></li>
+                            <br/>
+                            <li> <p></p> </li>
+                            <li> <p></p> </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-2 col-xs-3">
+                        <ul>
+                            <li> <h5> <a href="About Us.html" style="margin-top: 5em"> ABOUT US</a> <h5></li>
+                            <li> <h5><a href="sejarah.html"> Asal-usul Tentang Kopi </a> <h5></li>
+                            <li> <h5><a href="/Login/signin.html"> Login </a> <h5></li>
+                            <li> <h5><a href="Website Ilmu Kopi.html"> Go up </a> <h5></li>
+                        </ul>
+                    </div>
+                       
+                    <!--/.row--> 
+                </div>
+                <!--/.container--> 
+            </div>
+            <!--/.footer-->
+                                  
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="pull-left copyright"> Copyright © Tentang Kopi 2020. All right reserved. </p>
+               
+                </div>
+            </div>
+            <!--/.footer-bottom--> 
+    
+        </div>
+    </footer>
  <!-- Jquery needed -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script src="js/scripts.js"></script>
- 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="js/scripts.js"></script>
+
+
+
  <!-- Function used to shrink nav bar removing paddings and adding black background -->
-     <script>
-         $(window).scroll(function() {
-             if ($(document).scrollTop() > 50) {
-                 $('.nav').addClass('affix');
-                 console.log("OK");
-             } else {
-                 $('.nav').removeClass('affix');
-             }
-         });
-     </script>
+ <script>
+     $(window).scroll(function() {
+         if ($(document).scrollTop() > 50) {
+             $('.nav').addClass('affix');
+             console.log("OK");
+         } else {
+             $('.nav').removeClass('affix');
+         }
+     });
+ </script>
+</div>
+</div>
+
+</body>
 </html>

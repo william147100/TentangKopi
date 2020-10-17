@@ -64,3 +64,7 @@ List Anggota  :
 
 ## Oktober 15, 2020 v0.54
 ### Update Page Sejarah
+
+## Oktober 15,2020 v0.6
+### Menambahkan page content(permulaan)
+

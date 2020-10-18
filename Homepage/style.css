@@ -446,8 +446,8 @@ a{
     background-color: #3F2C1F;
     background-image: url(https://image.freepik.com/free-photo/close-up-background-coffee-beans_23-2148349677.jpg);
     background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: 100%;
 }
 .box .card-width{
     width: 100%;

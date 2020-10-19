@@ -449,13 +449,10 @@ a{
     background-repeat: repeat;
     background-size: 100%;
 }
-<<<<<<< HEAD
 .box a,a:hover,a:active,a:focus{
     color: white;
     text-decoration: none;
 }
-=======
->>>>>>> 7189fe4b45b8ce2bee42349610d9df42381b0001
 
 .box .card-width{
     width: 100%;
@@ -526,6 +523,11 @@ a{
 .card{
     font-size: 11.179px;
     background-color:#EEEEEE;
+
+}
+.card a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 .pemisah{
     margin-bottom: 1%;

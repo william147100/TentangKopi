@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
@@ -12,14 +13,6 @@ body {
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
     font-size: 10px;
-}
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
-
-/* Navbar section */
-.bgimagebwh{
-   /* background-image: url(https://i.pinimg.com/736x/c8/0c/4a/c80c4ae0ba5657d5b3deecc6f4ca33a6.jpg);*/
-   background-color: #EEEEEE;
 }
 .nav {
     width: 100%;
@@ -80,48 +73,6 @@ body {
 
 
 /* Home section */
-
-.jumbotron {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color:rgba(0, 0, 0, 0.25);
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: auto;
-    height: auto;
-    font-size: 14px;
-}
-.centered {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color:rgba(0, 0, 0, 0.25);
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-
-}
-.home {
-    width: 100%;
-    height: 100vh;
-    background-image: url(homepagebg.png);
-    background-position: center top;
-    background-size:cover;
-
-}
-.home .display{
-    padding-top: 250px;
-    padding-left: 100px;
-    text-align: left;
-    width: 100%;
-    max-width: 600;
-    font-size: 40px;
-    font-weight: lighter;
-    font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
-}
 
 .navTrigger {
     display: none;
@@ -390,137 +341,71 @@ body {
 }
 
 
-
-.learn {
-    padding: 70px;
-    display: flex;
-    align-items: center;
+/*Body */
+.gallery{
+    padding: 100px;
+} 
+.headlight {
+    margin-bottom: 30px;
 }
-.learn .p{
-    font-size: 15px;
-    text-align: left;
-    font-family: 'Roboto Slab', serif;
-    margin-left: 20px;
-}
-.learn .bg{
-    height: 400px;
-    box-shadow: 25px 25px 50px 0 #EEEEEE inset, -25px -25px 50px 0 #EEEEEE inset; 
-    background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-us.s3.amazonaws.com%2Fd2a9e97c-5c7a-11ea-ac5e-df00963c20e6?fit=scale-down&source=next&width=700);
-}
-.myH2 {
-    margin-left: 20px;
-    font-size: 5rem;
-    color:black;
-    font-family: 'Roboto Slab', serif;
-}
-.myP {
-    text-align: justify;
-    padding-left:15%;
-    padding-right:15%;
+.headlight .headlight-header{
     font-size: 20px;
-}
-@media all and (max-width:700px){
-    .myP {
-        padding:2%;
-    }
-}
+    text-transform: uppercase;
 
-
-body{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
 }
-span{
-    font-size:15px;
-}
-
-a{
-    text-decoration:none; 
-    color:  #0b0135;
-    border-bottom:2px solid #0b0135;
-  }
-.box{
-    padding:25px;
-    background-color: #3F2C1F;
-    background-image: url(https://image.freepik.com/free-photo/close-up-background-coffee-beans_23-2148349677.jpg);
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.box a,a:hover,a:active,a:focus{
-    color: white;
-    text-decoration: none;
-}
-
-.box .card-width{
-    width: 100%;
-}
-.box-part{
-    background-color: rgba(0, 0, 0, 0.25);;
-    border-radius:0;
-    padding:30px 5px;
-    margin:30px 5px;
-    font-family:Arial, Helvetica, sans-serif;
+.headlight .headlight-body{
     font-size: 15px;
-
 }
-
-.box .container{
-    padding: 70px;
+.image-box {
+    position: relative;
     margin: auto;
-    color: #EEEEEE;
+    overflow: hidden;
 }
-.box .container .card{
-    height: 400px;
-    background-color: #393e46;
-    box-shadow: 25px 25px 100px 0 black;
-    transition: all 0.2s ease-in-out;
-}
-.box .container .card:hover{
-    transform: scale(1.1);
-}
-.box .container .icon{
-    max-width: 75px;
-    max-height: 75px;
-    margin: auto;
-    margin-top: 50px;
-}
-.text{
-    margin:20px 0px;
-    color:beige;
-    
+.image-box img {
+    transition: all 0.8s;
+    display: block;
+    height: auto;
+    transform: scale(1);
 }
 
-.fa{
-     color:#4183D7;
+.image-box:hover img {
+    transform: scale(1.05);
 }
 
-.isicard{
-    font-family:Arial, Helvetica, sans-serif;
+.content {
+   
 }
-.card{
-    font-size: 11.179px;
-    background-color:#EEEEEE;
+.content-title{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
-.pemisah{
-    margin-bottom: 1%;
+.content-end{
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
-.pemisah2{
-    margin-top: 1%;
-    margin-left: 1.35%;
-    margin:auto;
+.content-end .title{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
-.full {
-    width: 100%;    
+.content-end .card{
+    border-style: none;
 }
-.gap {
-	height: 30px;
-	width: 100%;
-	clear: both;
-	display: block;
+.content-end .card h1{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
+.content-end .card img{
+    height: 150px;
+    width: 250px;
+}
+.content-end .card a{
+    color: rgb(59, 59, 59);
+}
+
+/*Footer */
 .footer {
 	background:#222831;
 	height: auto;
@@ -617,63 +502,3 @@ a{
   font-size: 0.75em
 }
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .navbar a:hover {
-    background: #f1f1f1;
-    color: black;
-  }
-  
-  .navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .main {
-    padding: 16px;
-    margin-bottom: 30px;
-  }
-
-.spasigambar{
-    width: 487px;
-    height: 325px;
-    margin-right: 20px;
-}
-
-.kopidunia{
-    width: 1150px;
-    height: 350px;
-    background-repeat: no-repeat;
-}
-
-.textgambar{
-    padding: 5px;
-    color: darkred;
-    font-size: 10pt;
-}
-
-.footcenter{
-    text-align: center;
-    color: blanchedalmond;
-}

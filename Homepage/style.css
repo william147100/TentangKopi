@@ -43,7 +43,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: #d87300;
 }
 
 .nav div.main_list {
@@ -75,7 +75,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #d87300;
 }
 
 
@@ -119,7 +119,7 @@ body {
     max-width: 600;
     font-size: 40px;
     font-weight: lighter;
-    font-family: 'Arima Madurai', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
 }
 
@@ -405,7 +405,7 @@ body {
 .learn .bg{
     height: 400px;
     box-shadow: 25px 25px 50px 0 #EEEEEE inset, -25px -25px 50px 0 #EEEEEE inset; 
-    background-image: url(https://i2.wp.com/www.coday.id/wp-content/uploads/2019/06/Biaya-Kursus-Barista-di-Jogja.jpg?w=626&ssl=1);
+    background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-us.s3.amazonaws.com%2Fd2a9e97c-5c7a-11ea-ac5e-df00963c20e6?fit=scale-down&source=next&width=700);
 }
 .myH2 {
     margin-left: 20px;
@@ -437,10 +437,10 @@ span{
 }
 
 a{
-  text-decoration:none; 
-  color: #0062cc;
-  border-bottom:2px solid #0062cc;
-}
+    text-decoration:none; 
+    color:  #0b0135;
+    border-bottom:2px solid #0b0135;
+  }
 .box{
     padding:25px;
     background-color: #3F2C1F;
@@ -666,4 +666,5 @@ body {
 
 .footcenter{
     text-align: center;
+    color: blanchedalmond;
 }

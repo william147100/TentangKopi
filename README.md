@@ -71,3 +71,5 @@ List Anggota  :
 ## Oktober 18,2020 v0.7
 ### Menambah page manual brewing
 
+## Oktober 19,2020 v0.8
+### Menambahkan proses biji kopi

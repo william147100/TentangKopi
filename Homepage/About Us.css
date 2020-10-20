@@ -433,6 +433,15 @@ a{
     padding:60px 10px;
     margin:30px 0px;
 }
+
+.box-partt{
+    /* position: relative; */
+    background:#393e4600;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+
 .text{
     margin:20px 0px;
 }

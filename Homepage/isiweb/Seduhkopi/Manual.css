@@ -6,3 +6,21 @@
     font-family:"Lucida Sans Unicode","Lucida Grande", sans-serif;
     color:whitesmoke;
 }
+.homemanual {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://majalah.ottencoffee.co.id/wp-content/uploads/2019/12/Dripper-GEM-Series-800x600.jpg);
+    background-position: center top;
+    background-size:cover;
+}
+.homemanual .display{
+    padding-top: 400px;
+    padding-left:5%;
+    text-align: left;
+    width: 100%;
+    max-width:500px;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-style:italic;
+}

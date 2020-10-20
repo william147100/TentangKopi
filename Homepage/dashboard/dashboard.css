@@ -79,3 +79,6 @@ body {
   opacity: 100%;
   z-index: 100; 
 }
+#title{
+  width: 50%;
+}

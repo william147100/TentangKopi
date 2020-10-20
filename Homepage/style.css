@@ -702,3 +702,7 @@ body {
     text-align: center;
     color: blanchedalmond;
 }
+
+.nav li .dropdown a:hover{
+    color: gray;
+}

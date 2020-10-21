@@ -6,6 +6,14 @@
     background-size:cover;
     padding-bottom:1000px;
 }
+
+.learn .bgsiphon{
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 25px 25px 50px 0 #EEEEEE inset, -25px -25px 50px 0 #EEEEEE inset; 
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTym2g6pwxdOsiMzi5l2l_7Vmnm-GOFP6Dr-g&usqp=CAU);
+}
 .homesiphon .qoutessiphon{
     padding-top: 250px;
     padding-left: 900px;

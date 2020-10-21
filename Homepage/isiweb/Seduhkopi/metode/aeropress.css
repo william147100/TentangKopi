@@ -4,7 +4,12 @@
     background-image: url(https://wallpapercrafter.com/desktop/259824-aeropress-coffee-press-kit-disassembled-on-a-woode.jpg);
     background-position: center top;
     background-size:cover;
-    padding-bottom:1000px;
+    padding-bottom:1200px;
+}
+.learn .bgaero{
+    height: 400px;
+    box-shadow: 25px 25px 50px 0 #EEEEEE inset, -25px -25px 50px 0 #EEEEEE inset; 
+    background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-us.s3.amazonaws.com%2Fd2a9e97c-5c7a-11ea-ac5e-df00963c20e6?fit=scale-down&source=next&width=700);
 }
 .homeaero .qoutesaero{
     padding-top: 220px;

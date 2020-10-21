@@ -19,7 +19,6 @@
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <style>
       * {box-sizing: border-box}
@@ -100,7 +99,7 @@
       /* Fading animation */
       .fade {
         -webkit-animation-name: fade;
-        /*-webkit-animation-duration: 1.5s;*/
+        -webkit-animation-duration: 1.5s;
         animation-name: fade;
         animation-duration: 1.5s;
       }
@@ -161,7 +160,7 @@
         }
         
         .header {
-          text-align: center;
+          text-align: left;
           padding: 32px;
         }
         
@@ -194,7 +193,7 @@
           cursor: pointer;
           font-size: 18px;
         }
-        /*aaa*/
+        
         .btn:hover {
           background-color: #ddd;
         }
@@ -264,17 +263,24 @@
       <div class="text">Rasa Kopi</div>
     </div>
 
-     <div class="zval">
-     <section class="home">
-         <h1 class="display" style="color:whitesmoke;">"A bad day with coffee and sebat is better than a good day without IT"</h1><br>
-
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
 
       
     <!-- Header -->
 <div class="header" id="myHeader" style="text-align: center;">
     <h1 style="color: white;">Gallery Kopi</h1>
-    <h1 style="color: white;">Hal yang mungkin akan membantu anda!</h1>
-    <h1 style="color: white;">Feel Free To Explore :D</h1>
+    <p style="color: white;">Hal yang mungkin akan membantu anda!</p>
+    <p style="color: white;">Feel Free To Explore :D</p>
   </div>
               
   
@@ -282,7 +288,7 @@
   
         <div class="container1" >
               <a href="https://www.tokopedia.com/blog/macam-macam-jenis-kopi-di-dunia-tvl/#:~:text=Dari%20namanya%20saja%2C%20tentu%20kamu,seperti%20Amerika%20Serikat%20dan%20Eropa.">
-            <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/03/biji-kopi-Liberika-1.jpg" alt="Notebook" style="width:100%;">
+            <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/03/biji-kopi-Liberika-1.jpg" alt="Notebook" style="width:100%;" >
             </a>
             <div class="content">
               <h1>Cerita Kopi</h1>
@@ -343,37 +349,103 @@
           <img src="https://cf.shopee.co.id/file/b16d4ee8838994b1b37be5f98f1cdb7e" style="width:100%">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsi20lKzjmSUBYrNkfV803MSc6o9lrgsKiew&usqp=CAU" style="width:100%">
           <img src="https://i.pinimg.com/originals/4d/25/3a/4d253ad2d21fc46313e519e7c51f4455.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://images.unsplash.com/photo-1525629545813-e4e7ba89e506?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" style="width:100%">
+          <img src="https://images.pexels.com/photos/1414304/pexels-photo-1414304.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%">
+          <img src="https://p4.wallpaperbetter.com/wallpaper/975/219/729/background-board-coffee-wallpaper-preview.jpg" style="width:100%">
+          <img src="https://p4.wallpaperbetter.com/wallpaper/976/931/580/cappuccino-coffee-beans-love-hearts-wallpaper-preview.jpg" style="width:100%">
+          <img src="https://www.rumahmesin.com/wp-content/uploads/2019/10/553518.jpg" style="width:100%">
+        </div>   
+        <div class="column">
+          <img src="https://i.pinimg.com/originals/7d/b9/62/7db96283e667f4ae189da7541b909059.png" style="width:100%">
+          <img src="https://wallpaperstream.com/wallpapers/full/coffee-art/Latte-Art-Cappuccino-Cup-Wallpaper.jpg" style="width:100%">
+          <img src="https://img.beritasatu.com/cache/beritasatu/910x580-2/28092012080000.jpg" style="width:100%">
+          <img src="https://cdn.idntimes.com/content-images/post/20181001/b220d7fc057182d0cf147dadfa777323.jpg" style="width:100%">
+          <img src="https://cdn.idntimes.com/content-images/post/20181001/2484da92e9639fd298232475304e604b_600x400.jpg" style="width:100%">
 
         </div>
-        <!--/.footer-bottom--> 
-
-    </div>
-</footer>
-
-
-
-
- 
-            <!-- Jquery needed -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-            <script src="js/scripts.js"></script>
- 
+        <div class="column">
+            <img src="https://a-static.besthdwallpaper.com/jantung-kopi-crema-cappuccino-hari-valentine-wallpaper-2560x1440-13735_51.jpg" style="width:100%">
+            <img src="https://inspirasipagi.id/wp-content/uploads/2018/08/woman-in-blue-shirt-with-brown-sun-hat-near-coffee-shop-counter-hd-wallpaper-shops.jpg" style="width:100%">
+            <img src="https://lh3.googleusercontent.com/proxy/5dKrhvy8SkOv944zlIvSOtekCgTKcCwmPZsBasVKRjPg7JZluVov9AYbQDf79LlAjBStCquegjbItF6l0tqWL2KlnXSjDptz5yPNtE0uBwwhFI91LcUn6eIA-nsIgHBadVwjqrGh0oOUE571iptFBmeZs6kkBrrETWQCjUWWfUtISFXjlU41l8PdT2Ezf3hxtykah7gmu-pKn8DllSQkJ8HrTvmKE7Dc0WtvgajFAojyDpEkXVuBVDfp85s44grvd43Yjg" style="width:100%">
+            <img src="https://cf.shopee.co.id/file/08e6cb4b0eef0121fa87d7b0e16fa231" style="width:100%">
+            <img src="https://www.wallpapertip.com/wmimgs/245-2457546_coffee-shop-wallpaper.jpg" style="width:100%">
+          </div>   
+    </div>     
 
 
-            <!-- Function used to shrink nav bar removing paddings and adding black background -->
-            <script>
-                $(window).scroll(function() {
-                    if ($(document).scrollTop() > 50) {
-                        $('.nav').addClass('affix');
-                        console.log("OK");
-                    } else {
-                        $('.nav').removeClass('affix');
-                    }
-                });
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+        <script>
+            // Get the elements with class="column"
+            var elements = document.getElementsByClassName("column");
+            
+            // Declare a loop variable
+            var i;
+            
+            // Full-width images
+            function one() {
+                for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "100%";  // IE10
+                elements[i].style.flex = "100%";
+              }
+            }
+            
+            // Two images side by side
+            function two() {
+              for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "50%";  // IE10
+                elements[i].style.flex = "50%";
+              }
+            }
+            
+            // Four images side by side
+            function four() {
+              for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "25%";  // IE10
+                elements[i].style.flex = "25%";
+              }
+            }
+            
+            // Add active class to the current button (highlight it)
+            var header = document.getElementById("myHeader");
+            var btns = header.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+              btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+              });
+            }
             </script>
-    </div>
-    </div>
-
 </body>
 <footer>
     <div class="footer" id="footer">

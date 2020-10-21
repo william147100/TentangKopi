@@ -1,0 +1,26 @@
+.homesiphon {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0738/1409/products/60A5761.jpg?v=1594194717);
+    background-position: center top;
+    background-size:cover;
+    padding-bottom:1000px;
+}
+.homesiphon .qoutessiphon{
+    padding-top: 250px;
+    padding-left: 900px;
+    
+    text-align: left;
+    width: 100%;
+    
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.kata2siphon .qoutessiphon   {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:grey;
+}

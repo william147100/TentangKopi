@@ -1,0 +1,26 @@
+.homeaero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1516036099991-c500723c2a11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-position: center top;
+    background-size:cover;
+    padding-bottom:1000px;
+}
+.homeaero .qoutesaero{
+    padding-top: 220px;
+    padding-left: 600px;
+    
+    text-align: left;
+    width: 100%;
+    
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.kata2aero .qoutesaero   {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:wheat;
+}

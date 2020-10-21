@@ -685,6 +685,10 @@ body {
     height: 325px;
     margin-right: 20px;
 }
+.spasigambar2{
+    image-orientation: inherit;
+    width: inherit;
+}
 
 .kopidunia{
     width: 1150px;

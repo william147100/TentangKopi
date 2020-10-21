@@ -16,6 +16,35 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <style>
+        .BorderColorChangeElement {
+              animation: BorderColorChange 1s ease-out 0s infinite alternate none running;
+        }
+        @keyframes BorderColorChange{
+              0%  { border: 10px solid #ffc0cb;}
+              100%  { border: 10px solid #ff69b4;}
+        }
+        @keyframes rotateAnim {
+            0% { transform: rotate(deg);}
+            100% { transform:rotate(360deg);}
+        }
+        @keyframes scaler {
+          0% {
+            transform: scale(1);
+          }
+          100% {    transform: scale(1.5);
+          }
+        }
+        .imgAnim521 {
+          animation: rotateAnim 10s linear 0s infinite forwards running;
+        }
+        .btnAnim521 {
+          animation: scaler 1s linear 0s infinite alternate none running;
+        }
+        .btnAnim521:hover{
+          animation-play-state: paused;
+        }
+        </style>
 </head>
 
 <body>
@@ -29,6 +58,7 @@
                     <li><a href="sejarah.html">Asal-usul Kopi</a></li>
                     <li><a href="About Us.html">About us</a></li>
                     <li><a href="contactus.html">Contact</a></li>
+                    <li><a href="isiweb/kamuskopi/kamuskopi.html">Kamus</a></li>
 
                 </ul>
             </div>
@@ -49,7 +79,7 @@
                                 <img src="../Image/Sejarah-Kopi(5).jpg" class="img-fluid kopidunia img-header" alt="Sejarah">
                                 <div class="text-center content-header">
                                     <h1 class="title">Sejarah Kopi</h1>
-                                    <p class="subtext">Blog by <a href="">William Wijaksana</a></p>
+                                    <p class="subtext">Blog by <a href="">Ricky Hansen</a></p>
                                 </div>  
                                 <div class="text-justify content-body">
                                         <p>    Sejarah kopi telah dicatat sejauh pada abad ke-9. Pertama kali, kopi hanya ada di Ethiopia, di mana biji-bijian asli ditanam oleh orang Ethiopia dataran tinggi.
@@ -60,7 +90,7 @@
                                         dunia, baik dalam hal sains, teknologi, budaya, seni, sastra, hingga kuliner. Budaya minum kopi adalah salah satunya.
                                         </p>
                                         <br>
-                                        <img src="../Image/Sejarah-Kopi(6).jpg" class="rounded float-left spasigambar" alt="Sejarah kopi">
+                                        <img src="../Image/Sejarah-Kopi(6).jpg" class="rounded float-left spasigambar" alt="Sejarah kopi" style="height: 300px; margin-right: 20px;">
                                         <h4><b>1. Budaya Minum Kopi Orang Muslim</b></h4>
                                         <p>     Konon, tanaman kopi pertama kali ditemukan di daratan Afrika, tepatnya di daerah yang merupakan bagian dari negara Ethiopia, yaitu Abyssinia. Masyarakat Ethiopia mulai mengonsumsinya
                                         sejak abad ke-9. Pada saat itu kopi belum dikenal luas di dunia. Biji kopi menjadi komersial setelah dibawa oleh para pedagang Arab ke Yaman pada pertengahan abad ke-15.
@@ -130,6 +160,9 @@
                                             Singkat cerita, banyak pasien datang ke gua dan meminta Omar untuk kembali menyembuhkan penyakit orang-orang. Omar pun mulai menggunakan air seduhan dari biji buah beri itu sebagai obat mujarab.
                                             Air itu pun terkenal dan disebut dengan nama Mocha.
                                         </p>
+                                        <div class="text-center textgambar">
+                                            <p><b>Source Artikel :</b><a href="https://www.sasamecoffee.com/kopipedia/sejarah-dan-jenis-kopi/">Klik Disini!</a></p>
+                                        </div>
                                         <br>
                                         <h3><b>c. Sejarah Kopi Di Indinesia</b></h3>
                                         <br>
@@ -143,8 +176,8 @@
                                             bibit bagi seluruh perkebunan yang dikembangkan di Indonesia.
                                         </p>
                                         <br/>
-                                        <img src="../Image/Sejarah-Kopi(2).jpg" class="rounded float-left spasigambar" alt="Sejarah kopi">
-                                        <p>     Belanda pun memperluas areal budidaya kopi ke Sumatera, Sulawesi, Bali, Timor dan pulau-pulau lainnya di Indonesia.
+                                        <img src="../Image/Sejarah-Kopi(2).jpg" class="rounded float-left spasigambar" alt="Sejarah kopi" style="height: 300px; margin-right: 20px;">
+                                        <p>    Belanda pun memperluas areal budidaya kopi ke Sumatera, Sulawesi, Bali, Timor dan pulau-pulau lainnya di Indonesia.
                                             Pada tahun 1878 terjadi tragedi yang memilukan. Hampir seluruh perkebunan kopi yang ada di Indonesia terutama di dataran rendah
                                             rusak terserang penyakit karat daun atau Hemileia vastatrix (HV). Kala itu semua tanaman kopi yang ada di
                                             Indonesia merupakan jenis Arabika (Coffea arabica). Untuk menanggulanginya, Belanda mendatangkan spesies kopi liberika
@@ -168,14 +201,27 @@
                                             Tahun 2000-an, kopi Indonesia kembali melejit. Indonesia masuk dalam negara penghasil kopi terbesar keempat di dunia setelah Brazil, Vietnam, dan Kolombia.
                                             Keanekaragaman cita rasa kopi yang tumbuh di berbagai daerah di Indonesia diakui oleh mancanegara.
                                         </p>
+                                        <div class="text-center textgambar">
+                                            <p><b>Source Artikel :</b><a href="https://www.kopigadingcempaka.com/sejarah-kopi-di-indonesia/#:~:text=Sejarah%20kopi%20di%20Indonesia%20bermula,dibawa%20itu%20merupakan%20jenis%20arabika.&text=Pada%20saat%20itu%2C%20salah%20satu,dunia%20ada%20di%20Pulau%20Jawa.">Klik Disini!</a></p>
+                                        </div>
                                         <br>
                                         <h3><b>Bukan Sekadar Minuman, Melainkan Kisah Peminumnya</b></h3>
                                         <br>
                                         <p>     Hampir di semua tempat, orang-orang menghadirkan kopi sebagai pelengkap beraktivitas. Mulai dari bangun pagi, di tengah-tengah pekerjaan, hingga pada saat bercakap hangat dengan kawan atau kolega.
                                             Bisa di rumah, di kantor, maupun gang-gang sempit di sudut kota. Minuman legendaris ini bukan sekadar sebagai penghilang rasa dahaga saja, melainkan berisi kisah para peminumnya.
                                             Setiap orang memberikan makna tersendiri pada kopi yang ada di cangkirnya. Demikian pula cara menikmatinya yang tentu berbeda-beda. Mungkin orang zaman dahulu tak menyangka tanaman misterius ini 
-                                            bisa menjelma jadi minuman yang populer sejagat raya. Oleh karenanya, sangat baik bagi kita untuk mengetahui sejarah kopi untuk lebih mengenal dan memahami minuman kita
+                                            bisa menjelma jadi minuman yang populer sejagat raya. Oleh karenanya, sangat baik bagi kita untuk mengetahui sejarah kopi untuk lebih mengenal dan memahami minuman kita.
                                         </p>
+                                        <br>
+                                        <p>
+                                                Nah sekarang kita tahu kan bagaimana sejarah dan perkembangan kopi di dunia dan di Indonesia sendiri, sebagai penikmat kopi kita wajib tau tentang berbagai jenis kopi yang ada di sekitar kita
+                                            umumnya, nah untuk mempelajari lebih lanjut tentang bagaimana proses kopi dari biji sampai bisa dikonsumsi, dan berbagai macam hal tentang metode pembuatan kopi serta istilah - istilah yang bahkan belum
+                                            pernah kita dengar bisa kita pelajari dengan lebih mendalam, yuk jangan pernah lelah untuk belajar dan menambah ilmu.
+                                            <br><br>
+                                            <i>By Author</i>
+                                        </p>
+                                        <img>
+
                                         <p class="comments text-center">Berikan Komentar Anda!</p>
                                     <div id="disqus_thread"></div>
                                 </div>
@@ -185,10 +231,23 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="BorderColorChangeElement" style="margin: 0 auto;text-align:center;overflow:hidden;border-radius:0px;-webkit-box-shadow: 16px 17px 18px -7px rgba(18,1,18,0.61);-moz-box-shadow: 16px 17px 18px -7px rgba(18,1,18,0.61);box-shadow: 16px 17px 18px -7px rgba(18,1,18,0.61);background:#009688;border:10px solid #000000;padding:8px;max-width:calc(100% - 48px);width:700px">
+        <div class="imgAnim139"  style="display: inline-block;position:relative;vertical-align: middle;padding:8px">
+            <img src="/Homepage/kopibike.PNG" style="max-width:100%;width:60px"/>
         </div>
-<script>
-                       
+        <div  style="display:inline-block;text-shadow:#030303 4px 4px 4px;position:relative;vertical-align: middle;padding:8px;font-size:45px;color:#ffffff;font-weight:normal">Coffee Bike</div>
+        <div  style="display:inline-block;text-shadow:#030303 4px 4px 4px;position:relative;vertical-align: middle;padding:8px;font-size:14px;color:#ffffff;font-weight:normal">Minumlah Coffee Bike, rasanya seperti anda menjadi Ironmen !</div>
+        <div class="btnAnim139"  style="display:inline-block;position:relative;vertical-align: middle;padding:8px" >
+            <a target="_blank" href="https://gofood.co.id/english/jakarta/restaurant/coffee-bike-grogol-58c8c97f-7b84-49ba-a89d-f34289390657"><input type="button" value="Visit Now" style="margin:0px;background:#000000;padding:8px;border:3px solid red;color:#ffffff;border-radius:0px;cursor:pointer" /></a></div>
+            <a target="_blank" href="https://www.instagram.com/coffeebikee/" class="w3-button w3-animate-zoom">
+                <img src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png" style="width: 36px;height: 36px;">
+            </a>
+        </div>
+        
 </body>
+                      
+
 <footer>
     <div class="footer" id="footer">
         <div class="container">
@@ -210,6 +269,7 @@
                         <li> <h5> <a href="About Us.html" style="margin-top: 5em"> ABOUT US</a> <h5></li>
                         <li> <h5><a href="sejarah.html"> Asal-usul Tentang Kopi </a> <h5></li>
                         <li> <h5><a href="/Login/signin.html"> Login </a> <h5></li>
+                        <li> <h5><a href="isiweb/kamuskopi/kamuskopi.html">Kamus</a> <h5></li>
                         <li> <h5><a href="sejarah.html"> Go up </a> <h5></li>
                     </ul>
                 </div>

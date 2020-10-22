@@ -1,0 +1,33 @@
+.homeaero {
+
+    background-image: url(https://img.freepik.com/free-photo/professional-barista-serving-traditional-turkish-coffee-cafeteria_23-2148209255.jpg?size=626&ext=jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .learn .bgaero{
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 25px 25px 50px 0 #EEEEEE inset, -25px -25px 50px 0 #EEEEEE inset; 
+    background-image: url(https://cdn.lifehack.org/wp-content/uploads/2016/03/french-press-coffee.jpeg);
+}
+.homeaero .qoutesaero{
+    padding-top: 220px;
+    padding-left: 800px;
+    
+    text-align: left;
+    width: 100%;
+    
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.kata2aero .qoutesaero   {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:wheat;
+}

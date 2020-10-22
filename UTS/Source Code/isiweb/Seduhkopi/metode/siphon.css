@@ -1,0 +1,34 @@
+.homesiphon {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0738/1409/products/60A5761.jpg?v=1594194717);
+    background-position: center top;
+    background-size:cover;
+    padding-bottom:1000px;
+}
+
+.learn .bgsiphon{
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 25px 25px 50px 0 #EEEEEE inset, -25px -25px 50px 0 #EEEEEE inset; 
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTym2g6pwxdOsiMzi5l2l_7Vmnm-GOFP6Dr-g&usqp=CAU);
+}
+.homesiphon .qoutessiphon{
+    padding-top: 250px;
+    padding-left: 900px;
+    
+    text-align: left;
+    width: 100%;
+    
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.kata2siphon .qoutessiphon   {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:grey;
+}

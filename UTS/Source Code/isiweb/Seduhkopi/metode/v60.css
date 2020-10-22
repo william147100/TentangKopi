@@ -1,0 +1,33 @@
+.homeaero {
+
+    background-image: url(https://www.coffeedesk.com/blog/wp-content/uploads/2019/07/JJF_3805-1920x1280.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .learn .bgaero{
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 25px 25px 50px 0 #EEEEEE inset, -25px -25px 50px 0 #EEEEEE inset; 
+    background-image: url(https://www.makanabis.com/bima-content/2019/11/18/l-screenshot-1861403903a8c544d1d3e42ac251a64127620191118151124-bimacms.png);
+}
+.homeaero .qoutesaero{
+    padding-top: 500px;
+    padding-left:45px;
+    
+    text-align: left;
+    width: 100%;
+    
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.kata2aero .qoutesaero   {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:goldenrod;
+}

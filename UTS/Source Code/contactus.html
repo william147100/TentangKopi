@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Contact Us</title>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="contactus.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="Website Ilmu Kopi.html">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>
+html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif;}
+.w3-bar-block .w3-bar-item{padding:16px}
+</style>
+  </head>
+<body>
+
+ 
+<!-- Side Navigation -->
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card" style="z-index:3;width:320px;" id="mySidebar">
+  <a href="Website Ilmu Kopi.html" class="w3-bar-item w3-button w3-border-bottom w3-large"><i class="fas fa-home"></i>Home</a>
+  <a href="sejarah.html" class="w3-bar-item w3-button w3-border-bottom w3-large w3-hover-light-grey"><i class="fas fa-history"></i>Sejarah</a>
+  <a href="About Us.html" class="w3-bar-item w3-button w3-hover-black w3-border-bottom w3-large w3-hover-black" style="color: black;"><i class="far fa-address-card"></i>About US</a>
+  <a href="isiweb/kamuskopi/kamuskopi.html" class="w3-bar-item w3-button w3-border-bottom w3-large w3-hover-light-grey">Kamus</a>
+  <a href="javascript:void(0)" onclick="w3_close()" title="Close Sidemenu" 
+  class="w3-bar-item w3-button w3-hide-large w3-large">Close <i class="fa fa-remove"></i></a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-dark-grey w3-button w3-hover-black w3-left-align" onclick="document.getElementById('id01').style.display='block'">New Message <i class="w3-padding fa fa-pencil"></i></a>
+  <a id="myBtn" onclick="myFunc('Demo1')" href="javascript:void(0)" class="w3-bar-item w3-button"><i class="fa fa-inbox w3-margin-right"></i>Contact (5)<i class="w3-margin-left fa fa-caret-down"></i></a>
+  <div id="Demo1" class="w3-hide w3-animate-left">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Taddo');w3_close();" id="firstTab">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://github.com/william147100/TentangKopi/blob/main/Image/WhatsApp%20Image%202020-09-16%20at%2022.46.51.jpeg?raw=true" style="width:15%;"><span class="w3-opacity w3-large">Taddo Tamiko</span>
+        <h6>Contact US!</h6>
+      </div>
+    </a>
+     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Willaim');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://github.com/william147100/TentangKopi/blob/main/Image/S__55296004.jpg?raw=true" style="width:15%;"><span class="w3-opacity w3-large">Willaim Wijaksana</span>
+        <p>Text Me! :)</p>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Leonard');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://github.com/william147100/TentangKopi/blob/main/Image/16623.jpg?raw=true" style="width:15%;"><span class="w3-opacity w3-large">Leonard Tanuwijaya</span>
+        <p>Hello! Nice To Meet You</p>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Hansen');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://github.com/william147100/TentangKopi/blob/main/Image/155338.jpg?raw=true" style="width:15%;"><span class="w3-opacity w3-large">Ricky Hansen Kurnia </span>
+        <p>Welcome!</p>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Kristian');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="https://github.com/william147100/TentangKopi/blob/main/Image/27482_0.jpg?raw=true" style="width:15%;"><span class="w3-opacity w3-large">Kristian Davidson Runtu</span>
+        <p>Hello Coffee World!</p>
+      </div>
+    </a>
+  </div>
+</nav>
+
+
+<!-- Modal that pops up when you click on "New Message" -->
+<div id="id01" class="w3-modal" style="z-index:4">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-padding w3-red">
+       <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-right w3-xxlarge"><i class="fa fa-remove"></i></span>
+      <h2>Send Mail</h2>
+    </div>
+    <div class="w3-panel">
+      <label>To</label>
+      <input class="w3-input w3-border w3-margin-bottom" type="text">
+      <label>From</label>
+      <input class="w3-input w3-border w3-margin-bottom" type="text">
+      <label>Subject</label>
+      <input class="w3-input w3-border w3-margin-bottom" type="text">
+      <input class="w3-input w3-border w3-margin-bottom" style="height:150px" placeholder="What's on your mind?">
+      <div class="w3-section">
+        <a class="w3-button w3-red" onclick="document.getElementById('id01').style.display='none'">Cancel  <i class="fa fa-remove"></i></a>
+        <a class="w3-button w3-right" onclick="document.getElementById('id01').style.display='none'">Send  <i class="fa fa-paper-plane"></i></a> 
+      </div>
+          
+    </div>
+  </div>
+  
+</div>
+
+<!-- Overlay effect when opening the side navigation on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="Close Sidemenu" id="myOverlay"></div>
+
+<!-- Page content -->
+<div class="w3-main" style="margin-left:320px;">
+<i class="fa fa-bars w3-button w3-white w3-hide-large w3-xlarge w3-margin-top" onclick="w3_open()"></i>
+<a href="javascript:void(0)" class="w3-hide-large w3-red w3-button w3-right w3-margin-top w3-margin-right" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-pencil"></i></a>
+
+<div id="Taddo" class="w3-container person" >
+  <style type="text/css">
+    body{
+    background: url('https://img.freepik.com/free-photo/background-with-coffee-beans_1205-268.jpg?size=626&ext=jpg') no-repeat scroll;
+    background-size: 100% 100%;
+    min-height: 700px;
+    background-position: right center;
+    }
+    </style>
+  <br>
+  <img class="w3-round  w3-animate-zoom" src="https://github.com/william147100/TentangKopi/blob/main/Image/WhatsApp%20Image%202020-09-16%20at%2022.46.51.jpeg?raw=true" style="width:20%;">
+  <h4><i class="fa fa-clock-o"></i> Taddo  Tamiko</h4>
+    <a href="https://github.com/taddo535180077/C_webprog_535180077" class="w3-button w3-animate-zoom">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width: 36px;height: 36px;">
+    </a>
+    <a href="https://www.instagram.com/taddo_t/" class="w3-button w3-animate-zoom">
+    <img src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png" style="width: 36px;height: 36px;">
+    </a>
+    <a class="w3-animate-top w3-button" href="https://mail.google.com/mail/u/0/#inbox">
+      <img src="https://e7.pngegg.com/pngimages/877/133/png-clipart-google-mail-logo-gmail-computer-icons-logo-email-gmail-angle-text.png" style="width: 36px;height: 36px;">Taddo.535180077@stu.untar.ac.id
+      </a>
+  <hr>
+  <h2><b>Contact Info</b></h2>
+  <p>Universitas Tarumanegara</p>
+  <p>Jl. Letjen S. Parman No.1, RT.6/RW.16, Tomang</p>
+  <p> Kec. Grogol petamburan, Kota Jakarta Barat</p>
+  <p style="color: red;">Waktu Pelayanan:09.00-22.00, 24/7</p>
+    <hr>
+    <a>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.711301232346!2d106.7869128146477!3d-6.169398962176624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65c8572640d%3A0xc0a066d78372614e!2sUniversitas%20Tarumanagara%20Kampus%20I!5e0!3m2!1sid!2sid!4v1601907790611!5m2!1sid!2sid" style="width: 200px;height: 200px;"></iframe>"
+  </a>
+    
+</div>
+
+
+<div id="Willaim" class="w3-container person">
+  <style type="text/css">
+    body{
+    background: url('https://img.freepik.com/free-photo/background-with-coffee-beans_1205-268.jpg?size=626&ext=jpg') no-repeat scroll;
+    background-size: 100% 100%;
+    min-height: 700px;
+    background-position: right center;
+    }
+    </style>
+  <br>
+  <img class="w3-round  w3-animate-zoom" src="https://github.com/william147100/TentangKopi/blob/main/Image/S__55296004.jpg?raw=true" style="width:20%;">
+  <h4><i class="fa fa-clock-o"></i> William Wijaksana</h4>
+    <a href="https://github.com/william147100/TentangKopi" class="w3-button w3-animate-zoom">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width: 36px;height: 36px;">
+    </a>
+    <a href="https://www.instagram.com/williamwijaksana/" class="w3-button w3-animate-zoom">
+    <img src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png" style="width: 36px;height: 36px;">
+    </a>
+    <a class="w3-animate-top w3-button" href="https://mail.google.com/mail/u/0/#inbox">
+      <img src="https://e7.pngegg.com/pngimages/877/133/png-clipart-google-mail-logo-gmail-computer-icons-logo-email-gmail-angle-text.png" style="width: 36px;height: 36px;">william.535180094@stu.untar.ac.id
+      </a>
+  <hr>
+  <h2><b>Contact Info</b></h2>
+  <p>Universitas Tarumanegara</p>
+  <p>Jl. Letjen S. Parman No.1, RT.6/RW.16, Tomang</p>
+  <p> Kec. Grogol petamburan, Kota Jakarta Barat</p>
+  <p style="color: red;">Waktu Pelayanan:09.00-22.00, 24/7</p>
+    <hr>
+    <a>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.711301232346!2d106.7869128146477!3d-6.169398962176624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65c8572640d%3A0xc0a066d78372614e!2sUniversitas%20Tarumanagara%20Kampus%20I!5e0!3m2!1sid!2sid!4v1601907790611!5m2!1sid!2sid" style="width: 200px;height: 200px;"></iframe>"
+  </a>
+    
+</div>
+
+<div id="Leonard" class="w3-container person">
+  <style type="text/css">
+    body{
+    background: url('https://img.freepik.com/free-photo/background-with-coffee-beans_1205-268.jpg?size=626&ext=jpg') no-repeat scroll;
+    background-size: 100% 100%;
+    min-height: 700px;
+    background-position: right center;
+    }
+    </style>
+  <br>
+  <img class="w3-round  w3-animate-zoom" src="https://github.com/william147100/TentangKopi/blob/main/Image/16623.jpg?raw=true" style="width:15%;">
+  <h4><i class="fa fa-clock-o"></i> Leonard Tanuwijaya</h4>
+    <a href="Github.com/micletan" class="w3-button w3-animate-zoom">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width: 36px;height: 36px;">
+    </a>
+    <a href="https://www.instagram.com/leonard_tanuwijaya/" class="w3-button w3-animate-zoom">
+    <img src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png" style="width: 36px;height: 36px;">
+    </a>
+    <a class="w3-animate-top w3-button" href="https://mail.google.com/mail/u/0/#inbox">
+      <img src="https://e7.pngegg.com/pngimages/877/133/png-clipart-google-mail-logo-gmail-computer-icons-logo-email-gmail-angle-text.png" style="width: 36px;height: 36px;">leonard.535180055@stu.untar.ac.id
+      </a>
+  <hr>
+  <h2><b>Contact Info</b></h2>
+  <p>Universitas Tarumanegara</p>
+  <p>Jl. Letjen S. Parman No.1, RT.6/RW.16, Tomang</p>
+  <p> Kec. Grogol petamburan, Kota Jakarta Barat</p>
+  <p style="color: red;">Waktu Pelayanan:09.00-22.00, 24/7</p>
+    <hr>
+    <a>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.711301232346!2d106.7869128146477!3d-6.169398962176624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65c8572640d%3A0xc0a066d78372614e!2sUniversitas%20Tarumanagara%20Kampus%20I!5e0!3m2!1sid!2sid!4v1601907790611!5m2!1sid!2sid" style="width: 200px;height: 200px;"></iframe>"
+  </a>
+</div>
+<div id="Hansen" class="w3-container person">
+  <style type="text/css">
+    body{
+    background: url('https://img.freepik.com/free-photo/background-with-coffee-beans_1205-268.jpg?size=626&ext=jpg') no-repeat scroll;
+    background-size: 100% 100%;
+    min-height: 700px;
+    background-position: right center;
+    }
+    </style>
+  <br>
+  <img class="w3-round  w3-animate-zoom" src="https://github.com/william147100/TentangKopi/blob/main/Image/155338.jpg?raw=true" style="width:15%;">
+  <h4><i class="fa fa-clock-o"></i>Ricky Hansen Kurnia</h4>
+    <a href="https://github.com/tyray121" class="w3-button w3-animate-zoom">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width: 36px;height: 36px;">
+    </a>
+    <a href="https://www.instagram.com/ricky_hansen/" class="w3-button w3-animate-zoom">
+    <img src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png" style="width: 36px;height: 36px;">
+    </a>
+    <a class="w3-animate-top w3-button" href="https://mail.google.com/mail/u/0/#inbox">
+      <img src="https://e7.pngegg.com/pngimages/877/133/png-clipart-google-mail-logo-gmail-computer-icons-logo-email-gmail-angle-text.png" style="width: 36px;height: 36px;">Ricky.535180069@stu.untar.ac.id
+      </a>
+  <hr>
+  <h2><b>Contact Info</b></h2>
+  <p>Universitas Tarumanegara</p>
+  <p>Jl. Letjen S. Parman No.1, RT.6/RW.16, Tomang</p>
+  <p> Kec. Grogol petamburan, Kota Jakarta Barat</p>
+  <p style="color: red;">Waktu Pelayanan:09.00-22.00, 24/7</p>
+    <hr>
+    <a>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.711301232346!2d106.7869128146477!3d-6.169398962176624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65c8572640d%3A0xc0a066d78372614e!2sUniversitas%20Tarumanagara%20Kampus%20I!5e0!3m2!1sid!2sid!4v1601907790611!5m2!1sid!2sid" style="width: 200px;height: 200px;"></iframe>"
+  </a>
+</div>
+<div id="Kristian" class="w3-container person">
+  
+    <style type="text/css">
+      body{
+      background: url('https://img.freepik.com/free-photo/background-with-coffee-beans_1205-268.jpg?size=626&ext=jpg') no-repeat scroll;
+      background-size: 100% 100%;
+      min-height: 700px;
+      background-position: right center;
+      }
+      </style>
+    <br>
+    <img class="w3-round  w3-animate-zoom" src="https://github.com/william147100/TentangKopi/blob/main/Image/27482_0.jpg?raw=true" style="width:15%;">
+    <h4><i class="fa fa-clock-o"></i> Kristian Davidson Runtu</h4>
+      <a href="https://github.com/kristiandavidr" class="w3-button w3-animate-zoom">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width: 36px;height: 36px;">
+      </a>
+      <a href="https://www.instagram.com/7kristianr/" class="w3-button w3-animate-zoom">
+      <img src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png" style="width: 36px;height: 36px;">
+      </a>
+      <a class="w3-animate-top w3-button" href="https://mail.google.com/mail/u/0/#inbox">
+        <img src="https://e7.pngegg.com/pngimages/877/133/png-clipart-google-mail-logo-gmail-computer-icons-logo-email-gmail-angle-text.png" style="width: 36px;height: 36px;">kristian. 535180135@stu.untar.ac.id
+        </a>
+    <hr>
+    <h2><b>Contact Info</b></h2>
+    <p>Universitas Tarumanegara</p>
+    <p>Jl. Letjen S. Parman No.1, RT.6/RW.16, Tomang</p>
+    <p> Kec. Grogol petamburan, Kota Jakarta Barat</p>
+    <p style="color: red;">Waktu Pelayanan:09.00-22.00, 24/7</p>
+      <hr>
+      <a>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.711301232346!2d106.7869128146477!3d-6.169398962176624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65c8572640d%3A0xc0a066d78372614e!2sUniversitas%20Tarumanagara%20Kampus%20I!5e0!3m2!1sid!2sid!4v1601907790611!5m2!1sid!2sid" style="width: 200px;height: 200px;"></iframe>"
+    </a>
+  </div>
+
+
+
+<script>
+var openInbox = document.getElementById("myBtn");
+openInbox.click();
+
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+function myFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show"; 
+    x.previousElementSibling.className += " w3-red";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-red", "");
+  }
+}
+
+openMail("Taddo")
+function openMail(personName) {
+  var i;
+  var x = document.getElementsByClassName("person");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x = document.getElementsByClassName("test");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" w3-light-grey", "");
+  }
+  document.getElementById(personName).style.display = "block";
+  event.currentTarget.className += " w3-light-grey";
+}
+</script>
+
+<script>
+var openTab = document.getElementById("firstTab");
+openTab.click();
+</script>
+
+</body>
+</html> 

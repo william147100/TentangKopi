@@ -1,12 +1,12 @@
 .homeaero {
 
-    background-image: url(https://images.unsplash.com/photo-1516036099991-c500723c2a11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-image: url(https://img.freepik.com/free-photo/professional-barista-serving-traditional-turkish-coffee-cafeteria_23-2148209255.jpg?size=626&ext=jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .learn .bgfrenchpress{
+  .learn .bgaero{
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 }
 .homeaero .qoutesaero{
     padding-top: 220px;
-    padding-left: 600px;
+    padding-left: 800px;
     
     text-align: left;
     width: 100%;

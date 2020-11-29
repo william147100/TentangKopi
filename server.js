@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 const login = require('./routes/api/user');
 
-mongoUri = 'mongodb+srv://admin:tentangkopi@cluster0.razyx.mongodb.net/<dbname>?retryWrites=true&w=majority';
+mongoUri = 'mongodb+srv://admin:tentangkopi@cluster0.razyx.mongodb.net/tentang_kopi?retryWrites=true&w=majority';
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
     useCreateIndex: true,
@@ -26,7 +26,7 @@ app.use(express.json());
 
 
 
-app.use('/signin', login);
+app.use('/', login);
 app.use('/', router);
 app.listen(8080);
 

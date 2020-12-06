@@ -73,3 +73,6 @@ List Anggota  :
 
 ## Oktober 19,2020 v0.8
 ### Menambahkan proses biji kopi
+
+## Desember 6,2020 v0.9
+### Migrasi ke Vue.js

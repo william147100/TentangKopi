@@ -14,7 +14,7 @@ mongoose.connect(mongoUri, {
     useUnifiedTopology: true,
     useFindAndModify: false,
 }).then(() => console.log('Connected to Mongodb'));
-
+app.use('/static', express.static('TentangKopi'))
 app.use(express.static(path.join(__dirname, "/Homepage")));
 app.use(express.static(path.join(__dirname, "/Image")));
 app.get('/', function (req, res) {

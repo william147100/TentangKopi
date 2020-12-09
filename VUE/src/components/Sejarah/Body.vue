@@ -1,0 +1,502 @@
+<template>
+  <div class="zval">
+    <div style="height:auto">
+      <div class="box">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <span>
+                <img
+                  src="../../assets/img/Sejarah/Sejarah-Kopi(5).jpg"
+                  class="img-fluid kopidunia img-header"
+                  alt="Sejarah"
+                />
+                <div class="text-center content-header">
+                  <h1 class="title">Sejarah Kopi</h1>
+                  <p class="subtext">
+                    Blog by
+                    <a href>William Wijaksana</a>
+                  </p>
+                </div>
+                <div class="text-justify content-body">
+                  <p>
+                    Sejarah kopi telah dicatat sejauh pada abad ke-9. Pertama kali, kopi hanya ada
+                    di Ethiopia, di mana biji-bijian asli ditanam oleh orang Ethiopia dataran
+                    tinggi.
+                    Akan tetapi, ketika bangsa Arab mulai meluaskan perdagangannya, biji kopi pun
+                    telah meluas sampai ke Afrika Utara dan biji kopi di sana ditanam secara massal.
+                    Dari Afrika Utara itulah biji kopi mulai meluas dari Asia sampai pasaran Eropa
+                    dan ketenarannya sebagai minuman mulai menyebar.
+                    =======
+                  </p>
+                  <p class="subtext">
+                    Blog by
+                    <a href>Ricky Hansen</a>
+                  </p>
+                </div>
+                <div class="text-justify content-body">
+                  <p>
+                    Sejarah kopi telah dicatat sejauh pada abad ke-9. Pertama kali, kopi hanya ada
+                    di Ethiopia, di mana biji-bijian asli ditanam oleh orang Ethiopia dataran
+                    tinggi.
+                    Akan tetapi, ketika bangsa Arab mulai meluaskan perdagangannya, biji kopi pun
+                    telah meluas sampai ke Afrika Utara dan biji kopi di sana ditanam secara massal.
+                    Dari Afrika Utara itulah biji kopi mulai meluas dari Asia sampai pasaran Eropa
+                    dan ketenarannya sebagai minuman mulai menyebar.
+                    <br />Sejarah kopi sangat erat kaitannya dengan peradaban kaum muslim era
+                    kekhalifahan. Peradaban muslim punya pengaruh yang besar bagi perkembangan
+                    peradaban
+                    dunia, baik dalam hal sains, teknologi, budaya, seni, sastra, hingga kuliner.
+                    Budaya minum kopi adalah salah satunya.
+                  </p>
+                  <br />
+                  <img
+                    src="../../assets/img/Sejarah/Sejarah-Kopi(6).jpg"
+                    class="rounded float-left spasigambar"
+                    alt="Sejarah kopi"
+                    style="height: 300px; margin-right: 20px;"
+                  />
+                  <h4>
+                    <b>1. Budaya Minum Kopi Orang Muslim</b>
+                  </h4>
+                  <p>
+                    Konon, tanaman kopi pertama kali ditemukan di daratan Afrika, tepatnya di daerah
+                    yang merupakan bagian dari negara Ethiopia, yaitu Abyssinia. Masyarakat Ethiopia
+                    mulai mengonsumsinya
+                    sejak abad ke-9. Pada saat itu kopi belum dikenal luas di dunia. Biji kopi
+                    menjadi komersial setelah dibawa oleh para pedagang Arab ke Yaman pada
+                    pertengahan abad ke-15.
+                    Kopi dipopulerkan menjadi minuman oleh orang-orang muslim. Istilah kopi juga
+                    lahir dari bahasa Arab, qahwah yang berarti kekuatan.
+                    >>>>>>> 21765b946434a5d71c61d44523bea33e4010c6d5
+                    <br />Sejarah kopi sangat erat kaitannya dengan peradaban kaum muslim era
+                    kekhalifahan. Peradaban muslim punya pengaruh yang besar bagi perkembangan
+                    peradaban
+                    dunia, baik dalam hal sains, teknologi, budaya, seni, sastra, hingga kuliner.
+                    Budaya minum kopi adalah salah satunya.
+                  </p>
+                  <br />
+                  <img
+                    src="../../assets/img/Sejarah/Sejarah-Kopi(6).jpg"
+                    class="rounded float-left spasigambar"
+                    alt="Sejarah kopi"
+                  />
+                  <h4>
+                    <b>1. Budaya Minum Kopi Orang Muslim</b>
+                  </h4>
+                  <p>
+                    Konon, tanaman kopi pertama kali ditemukan di daratan Afrika, tepatnya di daerah
+                    yang merupakan bagian dari negara Ethiopia, yaitu Abyssinia. Masyarakat Ethiopia
+                    mulai mengonsumsinya
+                    sejak abad ke-9. Pada saat itu kopi belum dikenal luas di dunia. Biji kopi
+                    menjadi komersial setelah dibawa oleh para pedagang Arab ke Yaman pada
+                    pertengahan abad ke-15.
+                    Kopi dipopulerkan menjadi minuman oleh orang-orang muslim. Istilah kopi juga
+                    lahir dari bahasa Arab, qahwah yang berarti kekuatan.
+                    <br />
+                    <br />Berkat peradabannya yang lebih maju dari Afrika, Arab membudidayakan kopi
+                    sendiri dan mengekspornya ke penjuru dunia. Orang-orang Islam mulai
+                    menyebarluaskan kopi melalui Pelabuhan Mocha, Yaman.
+                    Berdasarkan literatur sejarah kopi, minuman ini sempat menjadi komoditas utama
+                    di dunia Islam. Minuman kopi sangat populer di kalangan peziarah Kota Mekah
+                    meskipun beberapa kali dinyatakan
+                    sebagai minuman terlarang. Para peziarah meminumnya untuk mengusir kantuk dan
+                    tetap terjaga saat beribadah malam.
+                  </p>
+                  <br />
+                  <h4>
+                    <b>2. Era Kekhalifahan dan Penyebaran Kopi ke Eropa</b>
+                  </h4>
+                  <div class="text-center textgambar">
+                    <img
+                      src="../../assets/img/Sejarah/Sejarah-Kopi(7).jpg"
+                      class="rounded tulisandibawahgambar"
+                      alt="kopi kerajaan"
+                      style="width: 700px;"
+                    />
+                    <p>Kopi diminum oleh bangsawan dan kelas menengah</p>
+                  </div>
+                  <br />
+                  <p>
+                    Pada masa kekhalifahan Turki Utsmani di abad ke-15, kopi menjadi sajian utama di
+                    setiap perayaan. Melalui Turki inilah, minuman pahit berwarna hitam kecokelatan
+                    ini mulai dikenal dan
+                    disukai oleh orang-orang Eropa. Perbedaan budaya dan bahasa membuat bangsa Turki
+                    menyebut qahwah menjadi kahveh. Mulai dari sinilah kemudian orang-orang Belanda
+                    mengenal dan menyebutnya koffie.
+                    Orang-orang Kristen Eropa mengadopsi kebiasaan minum kopi karena erat kaitannya
+                    dengan kemegahan dan kekayaan orang-orang Turki Ustmani. Pada saat itu, kopi
+                    arabika merupakan primadona bahkan
+                    menjadi minuman kelas menengah di Inggris pada tahun 1600-an.
+                  </p>
+                  <p>
+                    Kopi lantas menjadi komoditas penting di dunia. Orang-orang Eropa mencoba
+                    membudidayakannya sendiri. Namun, seringkali upaya tersebut gagal karena tanaman
+                    kopi tidak bisa tumbuh baik di sana.
+                    Oleh karena tidak bisa tumbuh baik di negerinya, beberapa negara di Eropa
+                    membawa tanaman ini ke daerah lain. Biasanya mereka memanfaatkan negara koloni
+                    atau jajahannya.
+                  </p>
+                  <br />
+                  <h3>
+                    <b>b. Legenda tentang Asal Usul Minuman Kopi</b>
+                  </h3>
+                  <br />
+                  <p>
+                    Ada dua dongeng legendaris tentang sejarah kopi. Legenda tersebut berkisah
+                    tentang Khaldi yang bertemu dengan kambing-kambing, dan Omar yang bekerja
+                    sebagai tabib. Dua mitos ini menceritakan awal
+                    manusia mulai mengonsumsi kopi. Kedua kisah tersebut sangat terkenal dan
+                    mendunia. Siapa saja yang mencoba untuk menelusuri sejarah kopi akan bertemu
+                    dengan dua mitos ini.
+                  </p>
+                  <br />
+                  <h4>
+                    <b>1. Khaldi dan Kambing yang Menari</b>
+                  </h4>
+                  <br />
+                  <br />
+                  <div class="text-center textgambar">
+                    <img
+                      src="../../assets/img/Sejarah/Sejarah-Kopi(8).jpg"
+                      class="rounded tulisandibawahgambar"
+                      alt="legenda kopi"
+                      ,
+                      style="width: 700px;"
+                    />
+                    <b>
+                      <p>Khaldi dan kambing yang menari</p>
+                    </b>
+                  </div>
+                  <p>
+                    Cerita ini merupakan mitos yang lahir di Ethiopia. Seiring dengan persebaran
+                    kopi di dunia, kisah ini pun tersebar secara lisan hingga melegenda.
+                    Konon, hiduplah seorang lelaki penggembala kambing bernama Khaldi pada kisaran
+                    tahun 850. Suatu hari, kambing-kambingnya melompat-lompat kegirangan seperti
+                    sedang menari.
+                    Usut punya usut, ia mendapati kambingnya telah memakan buah beri merah dari
+                    pohon yang asing. Penasaran dengan yang dialami kambingnya,
+                    Khaldi mencoba buah tersebut. Setelah memakannya, ia menjadi bersemangat seperti
+                    kambing-kambingnya itu. Khaldi menceritakan apa yang dialaminya kepada petapa
+                    atau biarawan.
+                    Si biarawan kemudian tertarik untuk mencoba buah ajaib itu. Ia pun bisa menjadi
+                    lebih kuat dan terjaga sepanjang malam tanpa mengantuk untuk berdoa.
+                    Oleh karena buah tersebut terasa sangat pahit, maka biarawan itu mulai
+                    mengolahnya. Ia mencoba memanggang dan menyeduh buah tersebut. Sejak itulah kopi
+                    mulai dikenal
+                    sebagai minuman yang dapat menambah tenaga dan mengusir rasa kantuk.
+                  </p>
+                  <br />
+                  <br />
+                  <h4>
+                    <b>2. Omar Si Tabib Sufi</b>
+                  </h4>
+                  <div class="text-center textgambar">
+                    <img
+                      src="../../assets/img/Sejarah/Sejarah-Kopi(9).jpg"
+                      class="rounded tulisandibawahgambar"
+                      alt="legenda kopi"
+                      ,
+                      style="width: 700px;"
+                    />
+                    <b>
+                      <p>Omar Si Tabib Sufi</p>
+                    </b>
+                  </div>
+                  <br />
+                  <p>
+                    Pada suatu hari, hidup seorang tabib penganut sufi di kota Mocha, Yaman. Ia
+                    bernama Ali bin Omar al Shadili dan biasa disapa Omar.
+                    Omar dikenal sebagai tabib yang memadukan tindakan medis dengan doa. Hampir
+                    segala penyakit bisa ia sembuhkan dengan cara itu. Ia pun menjadi tabib
+                    terkenal dan terpercaya di kota Mocha. Kepopuleran Omar tersebut tidak disukai
+                    oleh penguasa lokal. Segala upaya dilakukan untuk menjatuhkan Omar, seperti
+                    menggosipkannya telah bersekutu dengan setan untuk menyembuhkan pasiennya.
+                    Akhirnya masyarakat mengusir Omar dari Mocha. Omar pergi menjauh dan tinggal di
+                    dalam gua di luar kota Mocha. Pada saat ia mulai kelaparan, ia menemukan semak
+                    yang penuh dengan buah beri berwarna merah.
+                    <br />
+                    <br />Omar berpikir bahwa buah tersebut merupakan tanda Tuhan hendak menyelamatkannya.
+                    Ia pun memakan buah itu untuk mengusir rasa laparnya. Oleh karena rasa beri
+                    merah itu pahit,
+                    segala cara dilakukannya untuk mengolah buah itu hingga ke bijinya. Usaha Omar
+                    tidak membuahkan hasil karena ia tetap tak bisa menikmati buah itu.
+                    Ia pun hanya meminum cairan dari biji buah itu untuk memuaskan rasa hausnya.
+                    Tidak disangka, cairan yang ia minum mampu menyegarkan tubuhnya.
+                    Singkat cerita, banyak pasien datang ke gua dan meminta Omar untuk kembali
+                    menyembuhkan penyakit orang-orang. Omar pun mulai menggunakan air seduhan dari
+                    biji buah beri itu sebagai obat mujarab.
+                    Air itu pun terkenal dan disebut dengan nama Mocha.
+                  </p>
+                  <br />
+                  <h3>
+                    <b>c. Sejarah Kopi Di Indinesia</b>
+                  </h3>
+                  <br />
+                  <p>
+                    Awalmulanya, Sejarah kopi di Indonesia dimulai pada tahun 1696 ketika Belanda
+                    membawa kopi dari Malabar, India, ke Jawa.
+                    Mereka membudidayakan tanaman kopi tersebut di Kedawung, sebuah perkebunan yang
+                    terletak dekat Batavia.
+                    Namun upaya ini gagal kerena tanaman tersebut rusak oleh gempa bumi dan banjir.
+                    Upaya kedua dilakukan pada tahun 1699 dengan mendatangkan stek pohon kopi dari
+                    Malabar.
+                    <br />Pada tahun 1706 sampel kopi yang dihasilkan dari tanaman di Jawa
+                    dikirim ke negeri Belanda untuk diteliti di Kebun Raya Amsterdam. Hasilnya
+                    sukses besar, kopi yang dihasilkan memiliki kualitas yang sangat baik.
+                    Selanjutnya tanaman kopi ini dijadikan bibit bagi seluruh perkebunan yang
+                    dikembangkan di Indonesia.
+                  </p>
+                  <br />
+                  <img
+                    src="../../assets/img/Sejarah/Sejarah-Kopi(2).jpg"
+                    class="rounded float-left spasigambar"
+                    alt="Sejarah kopi"
+                  />
+                  <p>
+                    Belanda pun memperluas areal budidaya kopi ke Sumatera, Sulawesi, Bali,
+                    Timor
+                    dan pulau-pulau lainnya di Indonesia.
+                    Pada tahun 1878 terjadi tragedi yang memilukan. Hampir seluruh perkebunan
+                    kopi
+                    yang ada di Indonesia terutama di dataran rendah
+                    rusak terserang penyakit karat daun atau Hemileia vastatrix (HV). Kala itu
+                    semua
+                    tanaman kopi yang ada di
+                    Indonesia merupakan jenis Arabika (Coffea arabica). Untuk menanggulanginya,
+                    Belanda mendatangkan spesies kopi liberika
+                    (Coffea liberica) yang diperkirakan lebih tahan terhadap penyakit karat
+                    daun.
+                    <br />Sampai beberapa tahun lamanya, kopi liberika menggantikan kopi arabika di
+                    perkebunan dataranrendah.Di pasar Eropa kopi liberika saat itu dihargai sama
+                    dengan arabika.
+                    Namun rupanya tanaman kopi liberika juga mengalami hal yang sama, rusak
+                    terserang karat daun. Kemudian pada tahun 1907 Belanda
+                    mendatangkan spesies lain yakni kopi robusta (Coffea canephora). Usaha kali
+                    ini
+                    berhasil, hingga saat ini perkebunan-perkebunan
+                    kopi robusta yang ada di dataran rendah bisa bertahan. Pasca kemerdekaan
+                    Indonesia tahun 1945,
+                    seluruh perkebunan kopi Belanda yang ada di Indonesia di nasionalisasi.
+                    Sejak
+                    itu Belanda tidak lagi menjadi pemasok kopi dunia.
+                  </p>
+                  <br />
+                  <p>
+                    Pascakemerdekaan, setelah pemerintah Hindia Belanda meninggalkan Indonesia,
+                    laju
+                    perkebunan kopi pun sedikit terhambat. Namun, berkat
+                    komitmen serta kegigihan para petani dan nasionalisasi perkebunan eks
+                    pemerintahan Hindia Belanda, akhirnya perkebunan kopi lambat laun mulai
+                    bangkit dan berkembang.
+                  </p>
+                  <br />
+                  <p>
+                    Setidaknya ada satu novel karya Douwes Dekker berjudul Max Havelaar yang
+                    membantu mengubah opini masyarakat tentang Sistem Tanam Paksa.
+                    Novel tersebut berkisah tentang seorang pedagang kopi dan sekaligus kritik
+                    terhadap kesewenang-wenangan pemerintahan Hindia Belanda terhadap rakyat.
+                    Oleh karena peran novel itu, maka ada salah satu produk coffee blend dari
+                    Indonesia yang menggunakan kata Havelaar sebagai nama produknya.
+                    Tahun 2000-an, kopi Indonesia kembali melejit. Indonesia masuk dalam negara
+                    penghasil kopi terbesar keempat di dunia setelah Brazil, Vietnam, dan
+                    Kolombia.
+                    Keanekaragaman cita rasa kopi yang tumbuh di berbagai daerah di Indonesia
+                    diakui
+                    oleh mancanegara.
+                  </p>
+                  <br />
+                  <h3>
+                    <b>Bukan Sekadar Minuman, Melainkan Kisah Peminumnya</b>
+                  </h3>
+                  <br />
+                  <p>
+                    Hampir di semua tempat, orang-orang menghadirkan kopi sebagai pelengkap
+                    beraktivitas. Mulai dari bangun pagi, di tengah-tengah pekerjaan, hingga
+                    pada
+                    saat bercakap hangat dengan kawan atau kolega.
+                    Bisa di rumah, di kantor, maupun gang-gang sempit di sudut kota. Minuman
+                    legendaris ini bukan sekadar sebagai penghilang rasa dahaga saja, melainkan
+                    berisi kisah para peminumnya.
+                    Setiap orang memberikan makna tersendiri pada kopi yang ada di cangkirnya.
+                    Demikian pula cara menikmatinya yang tentu berbeda-beda. Mungkin orang zaman
+                    dahulu tak menyangka tanaman misterius ini
+                    bisa menjelma jadi minuman yang populer sejagat raya. Oleh karenanya, sangat
+                    baik bagi kita untuk mengetahui sejarah kopi untuk lebih mengenal dan
+                    memahami
+                    minuman kita
+                  </p>
+                  <p class="comments text-center">Berikan Komentar Anda!</p>=======
+                  <p>
+                    Pada suatu hari, hidup seorang tabib penganut sufi di kota Mocha, Yaman. Ia
+                    bernama Ali bin Omar al Shadili dan biasa disapa Omar.
+                    Omar dikenal sebagai tabib yang memadukan tindakan medis dengan doa. Hampir
+                    segala penyakit bisa ia sembuhkan dengan cara itu. Ia pun menjadi tabib
+                    terkenal dan terpercaya di kota Mocha. Kepopuleran Omar tersebut tidak
+                    disukai oleh penguasa lokal. Segala upaya dilakukan untuk menjatuhkan Omar,
+                    seperti
+                    menggosipkannya telah bersekutu dengan setan untuk menyembuhkan pasiennya.
+                    Akhirnya masyarakat mengusir Omar dari Mocha. Omar pergi menjauh dan tinggal
+                    di
+                    dalam gua di luar kota Mocha. Pada saat ia mulai kelaparan, ia menemukan
+                    semak yang penuh dengan buah beri berwarna merah.
+                    <br />
+                    <br />Omar berpikir bahwa buah tersebut merupakan tanda Tuhan hendak
+                    menyelamatkannya. Ia pun memakan buah itu untuk mengusir rasa laparnya. Oleh
+                    karena rasa beri merah itu pahit,
+                    segala cara dilakukannya untuk mengolah buah itu hingga ke bijinya. Usaha
+                    Omar tidak membuahkan hasil karena ia tetap tak bisa menikmati buah itu.
+                    Ia pun hanya meminum cairan dari biji buah itu untuk memuaskan rasa hausnya.
+                    Tidak disangka, cairan yang ia minum mampu menyegarkan tubuhnya.
+                    Singkat cerita, banyak pasien datang ke gua dan meminta Omar untuk kembali
+                    menyembuhkan penyakit orang-orang. Omar pun mulai menggunakan air seduhan
+                    dari biji buah beri itu sebagai obat mujarab.
+                    Air itu pun terkenal dan disebut dengan nama Mocha.
+                  </p>
+                  <div class="text-center textgambar">
+                    <p>
+                      <b>Source Artikel :</b>
+                      <a href="https://www.sasamecoffee.com/kopipedia/sejarah-dan-jenis-kopi/">
+                        Klik
+                        Disini!
+                      </a>
+                    </p>
+                  </div>
+                  <br />
+                  <h3>
+                    <b>c. Sejarah Kopi Di Indinesia</b>
+                  </h3>
+                  <br />
+                  <p>
+                    Awalmulanya, Sejarah kopi di Indonesia dimulai pada tahun 1696 ketika
+                    Belanda membawa kopi dari Malabar, India, ke Jawa.
+                    Mereka membudidayakan tanaman kopi tersebut di Kedawung, sebuah perkebunan
+                    yang terletak dekat Batavia.
+                    Namun upaya ini gagal kerena tanaman tersebut rusak oleh gempa bumi dan
+                    banjir.
+                    Upaya kedua dilakukan pada tahun 1699 dengan mendatangkan stek pohon kopi
+                    dari Malabar.
+                    <br />Pada tahun 1706 sampel kopi yang dihasilkan dari tanaman di Jawa dikirim ke
+                    negeri Belanda untuk diteliti di Kebun Raya Amsterdam.
+                    Hasilnya sukses besar, kopi yang dihasilkan memiliki kualitas yang sangat
+                    baik. Selanjutnya tanaman kopi ini dijadikan
+                    bibit bagi seluruh perkebunan yang dikembangkan di Indonesia.
+                  </p>
+                  <br />
+                  <img
+                    src="../../assets/img/Sejarah/Sejarah-Kopi(2).jpg"
+                    class="rounded float-left spasigambar"
+                    alt="Sejarah kopi"
+                    style="height: 300px; margin-right: 20px;"
+                  />
+                  <p>
+                    Belanda pun memperluas areal budidaya kopi ke Sumatera, Sulawesi, Bali,
+                    Timor dan pulau-pulau lainnya di Indonesia.
+                    Pada tahun 1878 terjadi tragedi yang memilukan. Hampir seluruh perkebunan
+                    kopi yang ada di Indonesia terutama di dataran rendah
+                    rusak terserang penyakit karat daun atau Hemileia vastatrix (HV). Kala itu
+                    semua tanaman kopi yang ada di
+                    Indonesia merupakan jenis Arabika (Coffea arabica). Untuk menanggulanginya,
+                    Belanda mendatangkan spesies kopi liberika
+                    (Coffea liberica) yang diperkirakan lebih tahan terhadap penyakit karat
+                    daun.
+                    <br />Sampai beberapa tahun lamanya, kopi liberika menggantikan kopi arabika di
+                    perkebunan dataranrendah.Di pasar Eropa kopi liberika saat itu dihargai sama
+                    dengan arabika.
+                    Namun rupanya tanaman kopi liberika juga mengalami hal yang sama, rusak
+                    terserang karat daun. Kemudian pada tahun 1907 Belanda
+                    mendatangkan spesies lain yakni kopi robusta (Coffea canephora). Usaha kali
+                    ini berhasil, hingga saat ini perkebunan-perkebunan
+                    kopi robusta yang ada di dataran rendah bisa bertahan. Pasca kemerdekaan
+                    Indonesia tahun 1945,
+                    seluruh perkebunan kopi Belanda yang ada di Indonesia di nasionalisasi.
+                    Sejak itu Belanda tidak lagi menjadi pemasok kopi dunia.
+                  </p>
+                  <br />
+                  <p>
+                    Pascakemerdekaan, setelah pemerintah Hindia Belanda meninggalkan Indonesia,
+                    laju perkebunan kopi pun sedikit terhambat. Namun, berkat
+                    komitmen serta kegigihan para petani dan nasionalisasi perkebunan eks
+                    pemerintahan Hindia Belanda, akhirnya perkebunan kopi lambat laun mulai
+                    bangkit dan berkembang.
+                  </p>
+                  <br />
+                  <p>
+                    Setidaknya ada satu novel karya Douwes Dekker berjudul Max Havelaar yang
+                    membantu mengubah opini masyarakat tentang Sistem Tanam Paksa.
+                    Novel tersebut berkisah tentang seorang pedagang kopi dan sekaligus kritik
+                    terhadap kesewenang-wenangan pemerintahan Hindia Belanda terhadap rakyat.
+                    Oleh karena peran novel itu, maka ada salah satu produk coffee blend dari
+                    Indonesia yang menggunakan kata Havelaar sebagai nama produknya.
+                    Tahun 2000-an, kopi Indonesia kembali melejit. Indonesia masuk dalam negara
+                    penghasil kopi terbesar keempat di dunia setelah Brazil, Vietnam, dan
+                    Kolombia.
+                    Keanekaragaman cita rasa kopi yang tumbuh di berbagai daerah di Indonesia
+                    diakui oleh mancanegara.
+                  </p>
+                  <div class="text-center textgambar">
+                    <p>
+                      <b>Source Artikel :</b>
+                      <a
+                        href="https://www.kopigadingcempaka.com/sejarah-kopi-di-indonesia/#:~:text=Sejarah%20kopi%20di%20Indonesia%20bermula,dibawa%20itu%20merupakan%20jenis%20arabika.&text=Pada%20saat%20itu%2C%20salah%20satu,dunia%20ada%20di%20Pulau%20Jawa."
+                      >
+                        Klik
+                        Disini!
+                      </a>
+                    </p>
+                  </div>
+                  <br />
+                  <h3>
+                    <b>Bukan Sekadar Minuman, Melainkan Kisah Peminumnya</b>
+                  </h3>
+                  <br />
+                  <p>
+                    Hampir di semua tempat, orang-orang menghadirkan kopi sebagai pelengkap
+                    beraktivitas. Mulai dari bangun pagi, di tengah-tengah pekerjaan, hingga
+                    pada saat bercakap hangat dengan kawan atau kolega.
+                    Bisa di rumah, di kantor, maupun gang-gang sempit di sudut kota. Minuman
+                    legendaris ini bukan sekadar sebagai penghilang rasa dahaga saja, melainkan
+                    berisi kisah para peminumnya.
+                    Setiap orang memberikan makna tersendiri pada kopi yang ada di cangkirnya.
+                    Demikian pula cara menikmatinya yang tentu berbeda-beda. Mungkin orang zaman
+                    dahulu tak menyangka tanaman misterius ini
+                    bisa menjelma jadi minuman yang populer sejagat raya. Oleh karenanya, sangat
+                    baik bagi kita untuk mengetahui sejarah kopi untuk lebih mengenal dan
+                    memahami minuman kita.
+                  </p>
+                  <br />
+                  <p>
+                    Nah sekarang kita tahu kan bagaimana sejarah dan perkembangan kopi di dunia
+                    dan di Indonesia sendiri, sebagai penikmat kopi kita wajib tau tentang
+                    berbagai jenis kopi yang ada di sekitar kita
+                    umumnya, nah untuk mempelajari lebih lanjut tentang bagaimana proses kopi
+                    dari biji sampai bisa dikonsumsi, dan berbagai macam hal tentang metode
+                    pembuatan kopi serta istilah - istilah yang bahkan belum
+                    pernah kita dengar bisa kita pelajari dengan lebih mendalam, yuk jangan
+                    pernah lelah untuk belajar dan menambah ilmu.
+                    <br />
+                    <br />
+                    <i>By Author</i>
+                  </p>
+                  <img />
+
+                  <p class="comments text-center">Berikan Komentar Anda!</p>
+                  <div id="disqus_thread"></div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Body"
+};
+</script>
+
+<style>
+</style>

@@ -92,7 +92,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .content-title {
   font-size: 15px;
   margin-top: 30px;

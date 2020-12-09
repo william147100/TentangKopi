@@ -87,7 +87,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .footer {
   background: #222831;
   height: auto;

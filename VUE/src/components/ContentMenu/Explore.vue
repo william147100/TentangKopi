@@ -55,7 +55,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .content-end {
   margin-top: 30px;
   margin-bottom: 40px;

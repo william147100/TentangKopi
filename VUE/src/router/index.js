@@ -4,7 +4,9 @@ import Home from "../views/HomePage/HomePage.vue";
 import SignUp from "../views/Auth/SignUp.vue";
 import SignIn from "../views/Auth/SignIn.vue";
 import AboutUs from "../views/AboutUs/AboutUs.vue"
+/*
 import ContactUs from "../views/ContactUs/ContactUs.vue";
+*/
 import Content from "../views/Content/Content.vue";
 import ContentMenu from "../views/ContentMenu/ContentMenu.vue";
 import Dashboard from "../views/Dashboard/Dashboard.vue";
@@ -33,11 +35,12 @@ const routes = [{
     name: "About",
     component: AboutUs
   },
-  {
-    path: "/contact",
-    name: "Contact",
-    component: ContactUs
-  },
+  /*
+    {
+      path: "/contact",
+      name: "Contact",
+      component: ContactUs
+    },*/
   {
     path: "/content",
     name: "Content",

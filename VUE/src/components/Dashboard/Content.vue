@@ -30,7 +30,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 [role="main"] {
   padding-top: 48px; /* Space for fixed navbar */
 }

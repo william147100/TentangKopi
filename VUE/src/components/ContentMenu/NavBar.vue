@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .nav {
   width: 100%;
   height: 65px;

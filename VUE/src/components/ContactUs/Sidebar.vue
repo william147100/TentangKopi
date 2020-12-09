@@ -179,7 +179,7 @@ var openTab = document.getElementById("firstTab");
 openTab.click();
 </script>
 
-<style>
+<style scoped>
 .navbar {
   overflow: hidden;
   background-color: #333;

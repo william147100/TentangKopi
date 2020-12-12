@@ -124,10 +124,6 @@ export default {
   color: #7f8c8d;
   padding: 0 0 8px 0;
 }
-
-.email {
-  border-bottom: 3px solid #fff;
-}
 .footer ul li a {
   padding: 0 0 12px 0;
   display: block;
@@ -146,22 +142,6 @@ export default {
 .footer a:hover {
   text-decoration: none;
   font-weight: bold;
-}
-.supportLi h4 {
-  font-size: 20px;
-  font-weight: lighter;
-  line-height: normal;
-  margin-bottom: 0 !important;
-  padding-bottom: 0;
-}
-
-.bg-gray {
-  background-image: -moz-linear-gradient(
-    center bottom,
-    #bbbbbb 0%,
-    #f0f0f0 100%
-  );
-  box-shadow: 0 1px 0 #b4b3b3;
 }
 
 .footer a {

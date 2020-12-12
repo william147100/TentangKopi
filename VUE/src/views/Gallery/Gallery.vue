@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import Footer from "@/components/Gallery/Footer.vue";
+import Footer from "@/components/Footer.vue";
 import Gallery from "@/components/Gallery/Gallery.vue";
-import NavBar from "@/components/Gallery/NavBar.vue";
-import Title from "@/components/Gallery/Title.vue";
+import NavBar from "@/components/NavBar.vue";
+import Title from "@/components/Quote.vue";
 
 export default {
   title: "Gallery",

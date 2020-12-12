@@ -16,18 +16,37 @@
       </div>
     </div>
     <h1 class="pt-2 pb-2">Create blog</h1>
-    <h1>Title</h1>
-    <textarea name="title" id="title" cols rows="1"></textarea>
+    <input type="textarea" name="title" id="title" v-model="blogtitle" />
     <h1>Body</h1>
-    <textarea name="mytextarea" id="mytextarea" cols="30" rows="18"></textarea>
-    <a href class="btn btn-sm btn-primary">Publish</a>
+    <vue-editor v-model="blogbody" />
+    <a href class="btn btn-sm btn-primary" @click="post">Publish</a>
   </main>
 </template>
 
-<script src="https://cdn.tiny.cloud/1/t2ddw7auslzfem0hcmx0huxt4svys0fyhj3ldm848t06t5qa/tinymce/5/tinymce.min.js"
-    referrerpolicy="origin"></script>
 <script>
-export default {};
+import axios from "axios";
+
+export default {
+  name: "app",
+  components: {},
+  data() {
+    return {
+      blogtitle: "",
+      blogbody: ""
+    };
+  },
+  mounted() {
+    axios.get("http://localhost:8000/blogs");
+  },
+  methods: {
+    post() {
+      axios.post("http://localhost:8000/blogs", {
+        title: this.blogtitle,
+        body: this.blogbody
+      });
+    }
+  }
+};
 </script>
 
 <style scoped>

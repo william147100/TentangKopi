@@ -21,7 +21,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .SignUp {
   background-image: url("../../assets/img/background.jpg");
   background-size: cover;

@@ -2,21 +2,24 @@
   <div class="zval">
     <NavBar />
     <Quote />
+    <Content />
     <Footer />
   </div>
 </template>
 
 <script>
-import NavBar from "@/components/HomePage/NavBar.vue";
-import Footer from "@/components/HomePage/Footer.vue";
-import Quote from "@/components/HomePage/Quote.vue";
+import NavBar from "@/components/NavBar.vue";
+import Footer from "@/components/Footer.vue";
+import Quote from "@/components/Quote.vue";
+import Content from "@/components/HomePage/Content.vue";
 
 export default {
   title: "Tentang Kopi",
   components: {
     NavBar,
     Footer,
-    Quote
+    Quote,
+    Content
   }
 };
 </script>

@@ -45,6 +45,7 @@ export default {
   position: fixed;
   line-height: 65px;
   text-align: center;
+  font-size: 25px;
 }
 
 .nav div.logo {
@@ -57,7 +58,6 @@ export default {
 .nav div.logo a {
   text-decoration: none;
   color: #fff;
-  font-size: 2.5rem;
 }
 
 .nav div.logo a:hover {
@@ -89,7 +89,6 @@ export default {
   text-decoration: none;
   color: #fff;
   line-height: 65px;
-  font-size: 2.4rem;
 }
 
 .nav div.main_list ul li a:hover {

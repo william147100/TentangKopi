@@ -1,6 +1,6 @@
 <template>
   <div class="col">
-    <form class="form-signup" @submit.prevent="signupUser">
+    <form class="form-signup" @submit.prevent="signUp">
       <label class="label">
         <h1 class="h3 mb-3">Sign up</h1>
       </label>
@@ -9,6 +9,7 @@
         type="email"
         name="email"
         id="email"
+        v-model="email"
         class="form-control mb-2"
         placeholder="Email address"
         required
@@ -28,6 +29,7 @@
         type="password"
         name="password"
         id="password"
+        v-model="password"
         class="form-control mb-2"
         placeholder="Password"
         required
@@ -45,15 +47,11 @@
           <input type="checkbox" value="remember-me" /> Agree with our terms & conditions
         </label>
       </div>
-      <button
-        class="label btn btn-lg btn-outline-light btn-block"
-        type="submit"
-        @click="signupUser"
-      >Sign up</button>
+      <button class="label btn btn-lg btn-outline-light btn-block" type="submit">Sign up</button>
       <p class="mt-2 text-muted">
         Sudah punya akun? Klik
         <router-link :to="{ name:'SignIn' }">
-          <a href="#" @click="signup">disini</a>
+          <a href="#">disini</a>
         </router-link>
       </p>
       <p class="mt-3 mb-3 text-muted">Tentang Kopi © 2020</p>
@@ -62,6 +60,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "SignUp",
   props: {
@@ -69,18 +69,20 @@ export default {
   },
   data() {
     return {
-      register: {
-        email: "",
-        password: ""
-      }
+      email: "",
+      password: ""
     };
   },
+  mounted() {
+    axios.get("http://localhost:8000/user");
+  },
   methods: {
-    signupUser() {
-      this.$http.post("http://localhost:8081/user", {
+    signUp() {
+      axios.post("http://localhost:8000/user", {
         email: this.email,
         password: this.password
       });
+      console.log("test");
     }
   }
 };

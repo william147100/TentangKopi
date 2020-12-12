@@ -44,6 +44,10 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  padding: 40px;
+  text-align: justify;
+}
 .gallery {
   padding: 100px;
 }

@@ -68,7 +68,7 @@
 
                 <div class="text">
                   <h4 style="text-align: left;">
-                    <pre style="color: whitesmoke"><b>
+                    <pre style="color: whitesmoke; font-size:15px"><b>
   Nama        : William Wijaksana<br /> 
   NIM         : 535180094<br />
   JK          : Laki-laki<br />  
@@ -95,7 +95,7 @@
 
                 <div class="text">
                   <h4 style="text-align: left;">
-                    <pre style="color: whitesmoke"><b>
+                    <pre style="color: whitesmoke; font-size:15px"><b>
   Nama        : Leonard Tanuwijaya<br /> 
   NIM         : 535180055<br />
   JK          : Laki-laki<br />  
@@ -122,7 +122,7 @@
 
                 <div class="text">
                   <h4 style="text-align: left;">
-                    <pre style="color: whitesmoke"><b>
+                    <pre style="color: whitesmoke; font-size:15px"><b>
   Nama        : Kristian Davidson R<br /> 
   NIM         : 535180135<br />
   JK          : Laki-laki<br />  
@@ -149,7 +149,7 @@
 
                 <div class="text">
                   <h4 style="text-align: left;">
-                    <pre style="color: whitesmoke"><b>
+                    <pre style="color: whitesmoke; font-size:15px"><b>
   Nama        : Taddo Tamiko<br /> 
   NIM         : 535180077<br />
   JK          : Laki-laki<br />  
@@ -180,7 +180,7 @@
 
                 <div class="text">
                   <h4 style="text-align: left;">
-                    <pre style="color: whitesmoke"><b>
+                    <pre style="color: whitesmoke; font-size:15px"><b>
   Nama        : Ricky Hansen Kurnia<br /> 
   NIM         : 535180069<br />
   JK          : Laki-laki<br />  
@@ -203,4 +203,126 @@ export default {};
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 62.5%;
+  font-size: 10px;
+}
+/* Home section */
+
+.home {
+  padding: 25px;
+  background-color: #3f2c1f;
+  background-image: url(https://image.freepik.com/free-photo/close-up-background-coffee-beans_23-2148349677.jpg);
+  background-blend-mode: overlay;
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.zval {
+  z-index: 50;
+}
+
+.software {
+  padding-top: 100px;
+}
+.box-part {
+  /* position: relative; */
+  background: #393e46;
+  border-radius: 0;
+  padding: 60px 10px;
+  margin: 30px 0px;
+  font-size: 15px;
+}
+
+.box-partt {
+  /* position: relative; */
+  background: #393e4600;
+  border-radius: 0;
+  padding: 60px 10px;
+  margin: 30px 0px;
+}
+
+.text {
+  margin: 20px 0px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+}
+
+.kotakawal {
+  background: #393e46;
+  border-radius: 0;
+  margin: 10px 100px;
+  padding: 30px;
+}
+
+.kotakawall {
+  background: #fff;
+  border-radius: 0;
+  margin: 0px 0px;
+}
+
+.box {
+  position: relative;
+  margin: 10px;
+  padding: 0px 0px;
+  border-radius: 0;
+  font-size: 10px;
+}
+
+.fontvisi {
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.fontmisi {
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.softkiri {
+  background: #fff;
+  border-radius: 0;
+  padding: 30px 10px;
+  margin: 30px 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.softtengah {
+  background: #fff;
+  border-radius: 0;
+  padding: 30px 10px;
+  margin: 30px 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.softkanan {
+  background: #fff;
+  border-radius: 0;
+  padding: 30px 10px;
+  margin: 30px 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.span {
+  margin-top: 0px 0px;
+  text-align: center;
+}
 </style>

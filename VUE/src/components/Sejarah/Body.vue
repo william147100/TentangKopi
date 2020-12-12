@@ -27,7 +27,6 @@
                     telah meluas sampai ke Afrika Utara dan biji kopi di sana ditanam secara massal.
                     Dari Afrika Utara itulah biji kopi mulai meluas dari Asia sampai pasaran Eropa
                     dan ketenarannya sebagai minuman mulai menyebar.
-                    =======
                   </p>
                   <p class="subtext">
                     Blog by
@@ -494,7 +493,10 @@
 
 <script>
 export default {
-  name: "Body"
+  name: "Body",
+  props: {
+    msg: String
+  }
 };
 </script>
 

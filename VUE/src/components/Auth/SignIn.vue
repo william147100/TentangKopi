@@ -46,14 +46,19 @@ export default {
   },
   data() {
     return {
-      login: {
-        email: "",
-        password: ""
-      }
+      email: "",
+      password: ""
     };
   },
   methods: {
-    async signin() {}
+    login() {
+      let email = this.email;
+      let password = this.password;
+      this.$store
+        .dispatch("login", { email, password })
+        .then(() => this.$router.push("/"))
+        .catch(err => console.log(err));
+    }
   }
 };
 </script>

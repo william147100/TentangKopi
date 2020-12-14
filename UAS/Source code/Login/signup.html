@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="signin.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body class="text-left" style="background-color: black;">
+    <div class="col">
+        <form class="form-signup" method="POST">
+            <label class="label">
+                <h1 class="h3 mb-3">Sign up</h1>
+            </label>
+            <label for="inputEmail" class="label sr-only">Email address</label>
+            <input type="email" name="email" id="inputEmail" class="form-control mb-2" placeholder="Email address"
+                required="" autofocus="">
+            <label for="inputEmail" class="label sr-only">Re-enter Email address</label>
+            <input type="email" id="inputEmail" class="form-control mb-2" placeholder="Re-enter Email address"
+                required="" autofocus="">
+            <label for="inputPassword" class="label sr-only">Password</label>
+            <input type="password" name="password" id="inputPassword" class="form-control mb-2" placeholder="Password"
+                required="">
+            <label for="inputPassword" class="label sr-only">Re-enter Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Re-enter Password" required="">
+            <div class="checkbox mb-3">
+                <label class="label">
+                    <input type="checkbox" value="remember-me"> Agree with our terms & conditions
+                </label>
+            </div>
+            <button class="label btn btn-lg btn-outline-light btn-block" type="submit">Sign up</button>
+            <p class="mt-2 text-muted">Sudah punya akun? Klik <a href="signin.html">disini</a></p>
+            <p class="mt-3 mb-3 text-muted">Tentang Kopi © 2020</p>
+        </form>
+    </div>
+    <div class="col">
+        <label class="label">
+            <h1 class="h3">Daftar sekarang!</h1>
+            <p>Ayo mulai petualangan kopimu sekarang</p>
+        </label>
+    </div>
+</body>
+
+</html>

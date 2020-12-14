@@ -1,0 +1,112 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url('background.jpg');
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  border-color: whitesmoke;
+  background-color: rgb(0, 0, 0, 0.3);
+  border-left: black;
+  border-right: black;
+  border-top: black;
+  border-bottom: black;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+  border-color: black;
+  background-color: rgb(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.9);
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.label {
+  color: whitesmoke;
+  font-family: 'open sans', sans-serif;
+}
+
+.form-signup {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: 65px;
+}
+
+.form-signup .h3 {
+  font-size: 3rem;
+  font-weight: 10;
+}
+
+.form-signup .checkbox {
+  font-weight: 400;
+}
+
+.form-signup .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  border-color: whitesmoke;
+  background-color: rgb(0, 0, 0, 0.3);
+  border-left: black;
+  border-right: black;
+  border-top: black;
+  border-bottom: black;
+}
+
+.form-signup .form-control:focus {
+  z-index: 2;
+  border-color: black;
+  background-color: rgb(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.9);
+}
+
+.form-signup input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signup input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

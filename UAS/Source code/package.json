@@ -1,0 +1,28 @@
+{
+  "name": "tentangkopi",
+  "version": "1.0.0",
+  "description": "<pre> List Anggota  : - William Wijaksana       (535180094) - Taddo Tamiko            (535180077) - Kristian Davidson Runtu (535180135) - Ricky Hansen Kurnia     (535180069) - Leonard Tanuwijaya      (535180055) <br> </pre> <hr>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristiandavidr/TentangKopi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristiandavidr/TentangKopi/issues"
+  },
+  "homepage": "https://github.com/kristiandavidr/TentangKopi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {}
+}
